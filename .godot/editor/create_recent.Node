@@ -1,5 +1,7 @@
 CollisionShape3D
 Area3D
+Node
+Timer
 Node3D
 Camera3D
 BoneAttachment3D

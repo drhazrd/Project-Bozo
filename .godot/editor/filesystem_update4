@@ -1,2 +1,8 @@
-res://main_menu.tscn
-res://main_menu.gd
+res://Levels/Test Level/enemy_controller.gd
+res://Levels/Test Level/TestScene.tscn
+res://Entities/Enemy/enemy_character.gd
+res://Entities/Entity Components/health_component.gd
+res://Entities/Entity Components/Hurtbox Component.tscn
+res://Entities/Entity Components/Health Component.tscn
+res://Entities/Player Character/player_character.tscn
+res://default_bus_layout.tres

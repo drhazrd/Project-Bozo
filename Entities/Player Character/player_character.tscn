@@ -1,4 +1,4 @@
-[gd_scene load_steps=26 format=4 uid="uid://dvmbk3cjb8o4"]
+[gd_scene load_steps=28 format=4 uid="uid://dvmbk3cjb8o4"]
 
 [ext_resource type="Script" uid="uid://d37u62jqkagsd" path="res://Entities/Player Character/player_movement.gd" id="1_ckx7f"]
 [ext_resource type="PackedScene" uid="uid://d1bw3daj84jjk" path="res://Assets/Mask.blend" id="2_cp4sy"]
@@ -20,6 +20,8 @@
 [ext_resource type="AnimationLibrary" uid="uid://d3kney5gbh7q4" path="res://Assets/Generic Assets Folder/Animated Characters Bundle/Animations/run.fbx" id="16_cbox2"]
 [ext_resource type="AnimationLibrary" uid="uid://c0wmlijgl3vg5" path="res://Assets/Generic Assets Folder/Animated Characters Bundle/Animations/shoot.fbx" id="17_fpe0n"]
 [ext_resource type="AnimationLibrary" uid="uid://nnhsm4oj8kiu" path="res://Assets/Generic Assets Folder/Animated Characters Bundle/Animations/walk.fbx" id="18_bwu3b"]
+[ext_resource type="PackedScene" uid="uid://dsvx1hbqs7oqi" path="res://Entities/Entity Components/Health Component.tscn" id="21_0wby5"]
+[ext_resource type="PackedScene" uid="uid://1h0yhd5oyxej" path="res://Entities/Entity Components/Hurtbox Component.tscn" id="22_osdie"]
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_oljhb"]
 resource_name = "skin"
@@ -193,9 +195,9 @@ bind/44/pose = Transform3D(-0.009927957, 9.571878e-05, -0.0011937284, -0.0011965
 height = 2.954834
 radius = 0.35986328
 
-[sub_resource type="CylinderShape3D" id="CylinderShape3D_0yauc"]
-height = 1.0
-radius = 10.0
+[sub_resource type="CylinderShape3D" id="CylinderShape3D_3dewf"]
+height = 2.1447754
+radius = 0.35888672
 
 [node name="Player Character" type="CharacterBody3D"]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.16393888, 0)
@@ -650,8 +652,15 @@ libraries = {
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1.3336244, 0)
 shape = SubResource("CylinderShape3D_uopxx")
 
-[node name="Area3D" type="Area3D" parent="."]
+[node name="Components" type="Node" parent="."]
 
-[node name="CollisionShape3D" type="CollisionShape3D" parent="Area3D"]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -0.49658203, 0)
-shape = SubResource("CylinderShape3D_0yauc")
+[node name="HealthComponent" parent="Components" node_paths=PackedStringArray("hurtbox_component") instance=ExtResource("21_0wby5")]
+hurtbox_component = NodePath("../HurtboxComponent")
+
+[node name="HurtboxComponent" parent="Components" instance=ExtResource("22_osdie")]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Components/HurtboxComponent"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1.550867, 0.24498862)
+shape = SubResource("CylinderShape3D_3dewf")
+
+[connection signal="body_entered" from="Components/HurtboxComponent" to="Components/HealthComponent" method="_on_hurtbox_component_body_entered"]

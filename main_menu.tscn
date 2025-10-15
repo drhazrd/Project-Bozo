@@ -57,7 +57,7 @@ anchor_right = 0.5
 anchor_bottom = 1.0
 offset_left = -96.0
 offset_top = -288.0
-offset_right = 99.0
+offset_right = 142.57
 offset_bottom = -38.0
 grow_horizontal = 2
 grow_vertical = 0
@@ -76,7 +76,6 @@ text = "Start"
 
 [node name="OptionsButton" type="Button" parent="VBoxContainer"]
 layout_mode = 2
-size_flags_vertical = 3
 theme = SubResource("Theme_rhts7")
 theme_type_variation = &"FlatButton"
 theme_override_colors/font_color = Color(0.7921569, 0.95686275, 0.5176471, 1)

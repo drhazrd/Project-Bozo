@@ -1,7 +1,11 @@
-[gd_scene load_steps=6 format=3 uid="uid://457eji0kpom4"]
+[gd_scene load_steps=10 format=3 uid="uid://457eji0kpom4"]
 
+[ext_resource type="Script" uid="uid://cbbwryn4ijg2c" path="res://Levels/Test Level/enemy_controller.gd" id="1_agua6"]
 [ext_resource type="PackedScene" uid="uid://dvmbk3cjb8o4" path="res://Entities/Player Character/player_character.tscn" id="1_q78tl"]
 [ext_resource type="Script" uid="uid://dn6j1bakl81h" path="res://Levels/Test Level/camera_controller.gd" id="2_37kuv"]
+[ext_resource type="PackedScene" uid="uid://th650eepkt0n" path="res://Entities/Enemy/enemy_character.tscn" id="2_ud7gw"]
+[ext_resource type="Material" uid="uid://drp0rgb2de28p" path="res://Entities/Enemy/Enemy Materials/robot1.tres" id="3_42213"]
+[ext_resource type="Material" uid="uid://dx8h0a1xfn42u" path="res://Entities/Enemy/Enemy Materials/robot2.tres" id="4_drbpy"]
 
 [sub_resource type="ProceduralSkyMaterial" id="ProceduralSkyMaterial_cguwc"]
 sky_horizon_color = Color(0.66224277, 0.6717428, 0.6867428, 1)
@@ -29,6 +33,12 @@ use_collision = true
 size = Vector3(25, 0.1, 25)
 
 [node name="Enemy Controller" type="Node3D" parent="."]
+script = ExtResource("1_agua6")
+enemy_scene = ExtResource("2_ud7gw")
+spawn_interval = 0.1
+enemy_materials = Array[Material]([ExtResource("3_42213"), ExtResource("4_drbpy")])
+
+[node name="SpawnTimer" type="Timer" parent="Enemy Controller"]
 
 [node name="Player Character" parent="." instance=ExtResource("1_q78tl")]
 
