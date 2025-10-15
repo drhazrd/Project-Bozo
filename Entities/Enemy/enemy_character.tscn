@@ -1,31 +1,29 @@
-[gd_scene load_steps=26 format=4 uid="uid://dvmbk3cjb8o4"]
+[gd_scene load_steps=24 format=4 uid="uid://th650eepkt0n"]
 
-[ext_resource type="Script" uid="uid://d37u62jqkagsd" path="res://Entities/Player Character/player_movement.gd" id="1_ckx7f"]
-[ext_resource type="PackedScene" uid="uid://d1bw3daj84jjk" path="res://Assets/Mask.blend" id="2_cp4sy"]
-[ext_resource type="AnimationLibrary" uid="uid://dpw10pdkgncjl" path="res://Assets/Generic Assets Folder/Animated Characters Bundle/Animations/attack.fbx" id="2_uopxx"]
-[ext_resource type="Texture2D" uid="uid://cylbh3oqfble7" path="res://Assets/Character Skins/businessMaleA.png" id="3_0yauc"]
-[ext_resource type="AnimationLibrary" uid="uid://kx50k2pp5dji" path="res://Assets/Generic Assets Folder/Animated Characters Bundle/Animations/crouch.fbx" id="3_ck3iv"]
-[ext_resource type="AnimationLibrary" uid="uid://8a5rykg8rp26" path="res://Assets/Generic Assets Folder/Animated Characters Bundle/Animations/crouchIdle.fbx" id="4_cp4sy"]
-[ext_resource type="AnimationLibrary" uid="uid://d1pjc3bklsi37" path="res://Assets/Generic Assets Folder/Animated Characters Bundle/Animations/crouchWalk.fbx" id="5_4o87v"]
-[ext_resource type="AnimationLibrary" uid="uid://cfd4b4dv2qndc" path="res://Assets/Generic Assets Folder/Animated Characters Bundle/Animations/death.fbx" id="6_8l2ys"]
-[ext_resource type="AnimationLibrary" uid="uid://bh755vttcxs0o" path="res://Assets/Generic Assets Folder/Animated Characters Bundle/Animations/idle.fbx" id="7_hscbv"]
-[ext_resource type="AnimationLibrary" uid="uid://jky38sxubtiu" path="res://Assets/Generic Assets Folder/Animated Characters Bundle/Animations/interactGround.fbx" id="8_1mw81"]
-[ext_resource type="AnimationLibrary" uid="uid://dhhkm405gsj6o" path="res://Assets/Generic Assets Folder/Animated Characters Bundle/Animations/interactStanding.fbx" id="9_4h41w"]
-[ext_resource type="AnimationLibrary" uid="uid://cajtcjpi2ha1g" path="res://Assets/Generic Assets Folder/Animated Characters Bundle/Animations/jump.fbx" id="10_nbyxc"]
-[ext_resource type="AnimationLibrary" uid="uid://dn60scfv8d384" path="res://Assets/Generic Assets Folder/Animated Characters Bundle/Animations/kick.fbx" id="11_bxw8m"]
-[ext_resource type="AnimationLibrary" uid="uid://b0tl6p0bekad2" path="res://Assets/Generic Assets Folder/Animated Characters Bundle/Animations/punch.fbx" id="12_5g585"]
-[ext_resource type="AnimationLibrary" uid="uid://bnktog6tjrbj0" path="res://Assets/Generic Assets Folder/Animated Characters Bundle/Animations/racingIdle.fbx" id="13_08y85"]
-[ext_resource type="AnimationLibrary" uid="uid://cwkj3jk8w0l1u" path="res://Assets/Generic Assets Folder/Animated Characters Bundle/Animations/racingLeft.fbx" id="14_ut5s4"]
-[ext_resource type="AnimationLibrary" uid="uid://dg1ic8u2otbv1" path="res://Assets/Generic Assets Folder/Animated Characters Bundle/Animations/racingRight.fbx" id="15_mwwgx"]
-[ext_resource type="AnimationLibrary" uid="uid://d3kney5gbh7q4" path="res://Assets/Generic Assets Folder/Animated Characters Bundle/Animations/run.fbx" id="16_cbox2"]
-[ext_resource type="AnimationLibrary" uid="uid://c0wmlijgl3vg5" path="res://Assets/Generic Assets Folder/Animated Characters Bundle/Animations/shoot.fbx" id="17_fpe0n"]
-[ext_resource type="AnimationLibrary" uid="uid://nnhsm4oj8kiu" path="res://Assets/Generic Assets Folder/Animated Characters Bundle/Animations/walk.fbx" id="18_bwu3b"]
+[ext_resource type="Script" uid="uid://cj00woheimava" path="res://Entities/Enemy/enemy_character.gd" id="1_b2l4a"]
+[ext_resource type="PackedScene" uid="uid://d1bw3daj84jjk" path="res://Assets/Mask.blend" id="2_5updv"]
+[ext_resource type="AnimationLibrary" uid="uid://dpw10pdkgncjl" path="res://Assets/Generic Assets Folder/Animated Characters Bundle/Animations/attack.fbx" id="3_4c7t5"]
+[ext_resource type="AnimationLibrary" uid="uid://kx50k2pp5dji" path="res://Assets/Generic Assets Folder/Animated Characters Bundle/Animations/crouch.fbx" id="4_641ee"]
+[ext_resource type="AnimationLibrary" uid="uid://8a5rykg8rp26" path="res://Assets/Generic Assets Folder/Animated Characters Bundle/Animations/crouchIdle.fbx" id="5_4bmbt"]
+[ext_resource type="AnimationLibrary" uid="uid://d1pjc3bklsi37" path="res://Assets/Generic Assets Folder/Animated Characters Bundle/Animations/crouchWalk.fbx" id="6_q6sp7"]
+[ext_resource type="AnimationLibrary" uid="uid://cfd4b4dv2qndc" path="res://Assets/Generic Assets Folder/Animated Characters Bundle/Animations/death.fbx" id="7_cw1sc"]
+[ext_resource type="AnimationLibrary" uid="uid://bh755vttcxs0o" path="res://Assets/Generic Assets Folder/Animated Characters Bundle/Animations/idle.fbx" id="8_kp3bg"]
+[ext_resource type="AnimationLibrary" uid="uid://jky38sxubtiu" path="res://Assets/Generic Assets Folder/Animated Characters Bundle/Animations/interactGround.fbx" id="9_twxhu"]
+[ext_resource type="AnimationLibrary" uid="uid://dhhkm405gsj6o" path="res://Assets/Generic Assets Folder/Animated Characters Bundle/Animations/interactStanding.fbx" id="10_k2i77"]
+[ext_resource type="AnimationLibrary" uid="uid://cajtcjpi2ha1g" path="res://Assets/Generic Assets Folder/Animated Characters Bundle/Animations/jump.fbx" id="11_klv1u"]
+[ext_resource type="AnimationLibrary" uid="uid://dn60scfv8d384" path="res://Assets/Generic Assets Folder/Animated Characters Bundle/Animations/kick.fbx" id="12_ewe6d"]
+[ext_resource type="AnimationLibrary" uid="uid://b0tl6p0bekad2" path="res://Assets/Generic Assets Folder/Animated Characters Bundle/Animations/punch.fbx" id="13_a3jyp"]
+[ext_resource type="AnimationLibrary" uid="uid://bnktog6tjrbj0" path="res://Assets/Generic Assets Folder/Animated Characters Bundle/Animations/racingIdle.fbx" id="14_ejpqa"]
+[ext_resource type="AnimationLibrary" uid="uid://cwkj3jk8w0l1u" path="res://Assets/Generic Assets Folder/Animated Characters Bundle/Animations/racingLeft.fbx" id="15_1i56i"]
+[ext_resource type="AnimationLibrary" uid="uid://dg1ic8u2otbv1" path="res://Assets/Generic Assets Folder/Animated Characters Bundle/Animations/racingRight.fbx" id="16_gcmgu"]
+[ext_resource type="AnimationLibrary" uid="uid://d3kney5gbh7q4" path="res://Assets/Generic Assets Folder/Animated Characters Bundle/Animations/run.fbx" id="17_oep8d"]
+[ext_resource type="AnimationLibrary" uid="uid://c0wmlijgl3vg5" path="res://Assets/Generic Assets Folder/Animated Characters Bundle/Animations/shoot.fbx" id="18_5su4p"]
+[ext_resource type="AnimationLibrary" uid="uid://nnhsm4oj8kiu" path="res://Assets/Generic Assets Folder/Animated Characters Bundle/Animations/walk.fbx" id="19_spxlv"]
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_oljhb"]
 resource_name = "skin"
 vertex_color_use_as_albedo = true
 albedo_color = Color(0.9063318, 0.9063318, 0.9063318, 1)
-albedo_texture = ExtResource("3_0yauc")
 emission_enabled = true
 emission = Color(0.9063318, 0.9063318, 0.9063318, 1)
 emission_energy_multiplier = 0.0
@@ -193,16 +191,12 @@ bind/44/pose = Transform3D(-0.009927957, 9.571878e-05, -0.0011937284, -0.0011965
 height = 2.954834
 radius = 0.35986328
 
-[sub_resource type="CylinderShape3D" id="CylinderShape3D_0yauc"]
-height = 1.0
-radius = 10.0
-
-[node name="Player Character" type="CharacterBody3D"]
+[node name="Enemy Character" type="CharacterBody3D"]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.16393888, 0)
-script = ExtResource("1_ckx7f")
+script = ExtResource("1_b2l4a")
 
 [node name="Root" type="Node3D" parent="."]
-transform = Transform3D(100, 0, 0, 0, -1.1920929e-05, 99.99999, 0, -99.99999, -1.1920929e-05, 0, 0, 0)
+transform = Transform3D(-100, 8.742277e-06, 3.8213706e-13, 0, -4.3711384e-06, 99.99999, 8.742278e-06, 99.99999, 4.3711384e-06, 0, 0, 0)
 
 [node name="Skeleton3D" type="Skeleton3D" parent="Root"]
 bones/0/name = "LeftFootCtrl"
@@ -617,8 +611,9 @@ transform = Transform3D(1.000012, 1.17346644e-07, -2.2351742e-08, -1.4901161e-08
 bone_name = "Head"
 bone_idx = 24
 
-[node name="Mask" parent="Root/Skeleton3D/BoneAttachment3D" instance=ExtResource("2_cp4sy")]
+[node name="Mask" parent="Root/Skeleton3D/BoneAttachment3D" instance=ExtResource("2_5updv")]
 transform = Transform3D(-0.01466444, 1.9151862e-09, -0.00049546873, 4.3151296e-05, 0.014972187, -0.0016533803, 0.0004333124, -0.0014909379, -0.016603472, 0.0004926329, 0.002588736, 0.0021792445)
+visible = false
 
 [node name="characterLargeMale" type="MeshInstance3D" parent="Root/Skeleton3D"]
 transform = Transform3D(1.0000001, 0, 0, 0, 1.0000001, 4.768367e-09, 0, -4.768367e-09, 1.0000001, 0, 3.725277e-11, 1.1641532e-09)
@@ -627,31 +622,25 @@ skin = SubResource("Skin_0yauc")
 
 [node name="AnimationPlayer" type="AnimationPlayer" parent="."]
 libraries = {
-&"attack": ExtResource("2_uopxx"),
-&"crouch": ExtResource("3_ck3iv"),
-&"crouchIdle": ExtResource("4_cp4sy"),
-&"crouchWalk": ExtResource("5_4o87v"),
-&"death": ExtResource("6_8l2ys"),
-&"idle": ExtResource("7_hscbv"),
-&"interactGround": ExtResource("8_1mw81"),
-&"interactStanding": ExtResource("9_4h41w"),
-&"jump": ExtResource("10_nbyxc"),
-&"kick": ExtResource("11_bxw8m"),
-&"punch": ExtResource("12_5g585"),
-&"racingIdle": ExtResource("13_08y85"),
-&"racingLeft": ExtResource("14_ut5s4"),
-&"racingRight": ExtResource("15_mwwgx"),
-&"run": ExtResource("16_cbox2"),
-&"shoot": ExtResource("17_fpe0n"),
-&"walk": ExtResource("18_bwu3b")
+&"attack": ExtResource("3_4c7t5"),
+&"crouch": ExtResource("4_641ee"),
+&"crouchIdle": ExtResource("5_4bmbt"),
+&"crouchWalk": ExtResource("6_q6sp7"),
+&"death": ExtResource("7_cw1sc"),
+&"idle": ExtResource("8_kp3bg"),
+&"interactGround": ExtResource("9_twxhu"),
+&"interactStanding": ExtResource("10_k2i77"),
+&"jump": ExtResource("11_klv1u"),
+&"kick": ExtResource("12_ewe6d"),
+&"punch": ExtResource("13_a3jyp"),
+&"racingIdle": ExtResource("14_ejpqa"),
+&"racingLeft": ExtResource("15_1i56i"),
+&"racingRight": ExtResource("16_gcmgu"),
+&"run": ExtResource("17_oep8d"),
+&"shoot": ExtResource("18_5su4p"),
+&"walk": ExtResource("19_spxlv")
 }
 
 [node name="CollisionShape3D" type="CollisionShape3D" parent="."]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1.3336244, 0)
 shape = SubResource("CylinderShape3D_uopxx")
-
-[node name="Area3D" type="Area3D" parent="."]
-
-[node name="CollisionShape3D" type="CollisionShape3D" parent="Area3D"]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -0.49658203, 0)
-shape = SubResource("CylinderShape3D_0yauc")
