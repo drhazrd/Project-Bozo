@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://bmwg8xhc3qdgk"
-path="res://.godot/imported/militaryMaleA.png-b5812dafe34d46543e5c53a7e70a3fac.ctex"
+uid="uid://bgfrjdm3d03jb"
+path="res://.godot/imported/militaryMaleB.png-200623f7ed17597d6d675b26288dfb51.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/Generic Assets Folder/Animated Characters Bundle/Skins/militaryMaleA.png"
-dest_files=["res://.godot/imported/militaryMaleA.png-b5812dafe34d46543e5c53a7e70a3fac.ctex"]
+source_file="res://Assets/Character Skins/militaryMaleB.png"
+dest_files=["res://.godot/imported/militaryMaleB.png-200623f7ed17597d6d675b26288dfb51.ctex"]
 
 [params]
 

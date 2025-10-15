@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://b1volns3o5i0i"
-path="res://.godot/imported/robot.png-d6220aeb9ea69c295a2fc689c65b0f2d.ctex"
+uid="uid://dcxbtvt5i2mrg"
+path="res://.godot/imported/militaryFemaleB.png-012eaba90e96d08e40ea8acf3566d1b5.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/Generic Assets Folder/Animated Characters Bundle/Skins/robot.png"
-dest_files=["res://.godot/imported/robot.png-d6220aeb9ea69c295a2fc689c65b0f2d.ctex"]
+source_file="res://Assets/Character Skins/militaryFemaleB.png"
+dest_files=["res://.godot/imported/militaryFemaleB.png-012eaba90e96d08e40ea8acf3566d1b5.ctex"]
 
 [params]
 

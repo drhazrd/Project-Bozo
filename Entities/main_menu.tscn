@@ -1,0 +1,71 @@
+[gd_scene load_steps=3 format=3 uid="uid://bvioti5k0fjgb"]
+
+[sub_resource type="Theme" id="Theme_rhts7"]
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_06t4h"]
+bg_color = Color(0.06085736, 0.06085736, 0.06085736, 0.674)
+corner_radius_top_left = 12
+corner_radius_top_right = 12
+corner_radius_bottom_right = 12
+corner_radius_bottom_left = 12
+corner_detail = 20
+expand_margin_left = 25.0
+expand_margin_top = 5.0
+expand_margin_right = 25.0
+expand_margin_bottom = 5.0
+
+[node name="MainMenu" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="VBoxContainer" type="VBoxContainer" parent="."]
+layout_mode = 1
+anchors_preset = 7
+anchor_left = 0.5
+anchor_top = 1.0
+anchor_right = 0.5
+anchor_bottom = 1.0
+offset_left = -96.0
+offset_top = -304.0
+offset_right = 99.0
+offset_bottom = -86.0
+grow_horizontal = 2
+grow_vertical = 0
+
+[node name="StartButton" type="Button" parent="VBoxContainer"]
+layout_mode = 2
+size_flags_vertical = 3
+theme = SubResource("Theme_rhts7")
+theme_type_variation = &"FlatButton"
+theme_override_colors/font_color = Color(0.7921569, 0.95686275, 0.5176471, 1)
+theme_override_colors/font_pressed_color = Color(0.58205354, 0.95702064, 0.5179158, 1)
+theme_override_font_sizes/font_size = 51
+theme_override_styles/normal = SubResource("StyleBoxFlat_06t4h")
+text = "Start"
+
+[node name="OptionsButton" type="Button" parent="VBoxContainer"]
+layout_mode = 2
+size_flags_vertical = 3
+theme = SubResource("Theme_rhts7")
+theme_type_variation = &"FlatButton"
+theme_override_colors/font_color = Color(0.7921569, 0.95686275, 0.5176471, 1)
+theme_override_colors/font_pressed_color = Color(0.58205354, 0.95702064, 0.5179158, 1)
+theme_override_font_sizes/font_size = 51
+theme_override_styles/normal = SubResource("StyleBoxFlat_06t4h")
+text = "Options
+"
+
+[node name="QuitButton" type="Button" parent="VBoxContainer"]
+layout_mode = 2
+size_flags_vertical = 3
+theme = SubResource("Theme_rhts7")
+theme_type_variation = &"FlatButton"
+theme_override_colors/font_color = Color(0.7921569, 0.95686275, 0.5176471, 1)
+theme_override_colors/font_pressed_color = Color(0.58205354, 0.95702064, 0.5179158, 1)
+theme_override_font_sizes/font_size = 51
+theme_override_styles/normal = SubResource("StyleBoxFlat_06t4h")
+text = "Quit"
