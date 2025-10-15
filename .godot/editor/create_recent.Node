@@ -1,0 +1,11 @@
+Node3D
+BoneAttachment3D
+CollisionShape3D
+Camera3D
+CharacterBody3D
+CharacterBody2D
+AnimationPlayer
+AnimationTree
+CSGBox3D
+GridMap
+MeshInstance3D
