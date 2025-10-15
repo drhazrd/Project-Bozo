@@ -4200,7 +4200,7 @@
 				{
 					"input":134,
 					"interpolation":"STEP",
-					"output":262
+					"output":141
 				}
 			]
 		}
@@ -5893,12 +5893,6 @@
 			"componentType":5126,
 			"count":33,
 			"type":"VEC4"
-		},
-		{
-			"bufferView":262,
-			"componentType":5126,
-			"count":2,
-			"type":"VEC3"
 		}
 	],
 	"bufferViews":[
@@ -7218,16 +7212,11 @@
 			"buffer":0,
 			"byteLength":528,
 			"byteOffset":96924
-		},
-		{
-			"buffer":0,
-			"byteLength":24,
-			"byteOffset":97452
 		}
 	],
 	"buffers":[
 		{
-			"byteLength":97476,
+			"byteLength":97452,
 			"uri":"racingIdle-53a13032994bae098523e3b9d13dc4e3.bin"
 		}
 	]

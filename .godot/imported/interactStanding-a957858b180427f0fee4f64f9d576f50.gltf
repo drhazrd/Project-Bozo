@@ -3533,14 +3533,14 @@
 					"sampler":135,
 					"target":{
 						"node":46,
-						"path":"scale"
+						"path":"translation"
 					}
 				},
 				{
 					"sampler":136,
 					"target":{
 						"node":46,
-						"path":"translation"
+						"path":"scale"
 					}
 				},
 				{
@@ -4231,12 +4231,12 @@
 				{
 					"input":132,
 					"interpolation":"STEP",
-					"output":149
+					"output":260
 				},
 				{
 					"input":132,
 					"interpolation":"STEP",
-					"output":260
+					"output":149
 				},
 				{
 					"input":132,

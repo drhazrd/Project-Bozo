@@ -4209,7 +4209,7 @@
 				},
 				{
 					"input":134,
-					"interpolation":"LINEAR",
+					"interpolation":"STEP",
 					"output":264
 				}
 			]
