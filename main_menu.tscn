@@ -1,7 +1,8 @@
-[gd_scene load_steps=7 format=3 uid="uid://brxx7hljhv2yv"]
+[gd_scene load_steps=14 format=3 uid="uid://brxx7hljhv2yv"]
 
 [ext_resource type="FontFile" uid="uid://bhji2feoaevbb" path="res://Assets/Fonts/Ov3Read Bold.ttf" id="1_06t4h"]
 [ext_resource type="Script" uid="uid://c2hni8w2a7bgs" path="res://main_menu.gd" id="1_7vrkn"]
+[ext_resource type="FontFile" uid="uid://blybhqqgw65qr" path="res://Assets/Fonts/VemanemX-Regular.ttf" id="2_fu7sn"]
 
 [sub_resource type="StyleBoxFlat" id="StyleBoxFlat_7vrkn"]
 bg_color = Color(0.028679255, 0.10713103, 0.12341841, 0.14509805)
@@ -15,6 +16,72 @@ corner_radius_top_right = 12
 corner_radius_bottom_right = 12
 corner_radius_bottom_left = 12
 corner_detail = 20
+expand_margin_left = 25.0
+expand_margin_top = 5.0
+expand_margin_right = 25.0
+expand_margin_bottom = 5.0
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_qe12f"]
+bg_color = Color(0.05490196, 0.05882353, 0.05882353, 1)
+corner_radius_top_left = 12
+corner_radius_top_right = 12
+corner_radius_bottom_right = 12
+corner_radius_bottom_left = 12
+expand_margin_left = 25.0
+expand_margin_top = 5.0
+expand_margin_right = 25.0
+expand_margin_bottom = 5.0
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_jix8l"]
+bg_color = Color(0.054497004, 0.056895614, 0.05689563, 1)
+corner_radius_top_left = 12
+corner_radius_top_right = 12
+corner_radius_bottom_right = 12
+corner_radius_bottom_left = 12
+expand_margin_left = 25.0
+expand_margin_top = 5.0
+expand_margin_right = 25.0
+expand_margin_bottom = 5.0
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_fu7sn"]
+bg_color = Color(0.05490196, 0.05882353, 0.05882353, 1)
+corner_radius_top_left = 12
+corner_radius_top_right = 12
+corner_radius_bottom_right = 12
+corner_radius_bottom_left = 12
+expand_margin_left = 25.0
+expand_margin_top = 5.0
+expand_margin_right = 25.0
+expand_margin_bottom = 5.0
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_glbon"]
+bg_color = Color(0.05490196, 0.05882353, 0.05882353, 1)
+corner_radius_top_left = 12
+corner_radius_top_right = 12
+corner_radius_bottom_right = 12
+corner_radius_bottom_left = 12
+expand_margin_left = 25.0
+expand_margin_top = 5.0
+expand_margin_right = 25.0
+expand_margin_bottom = 5.0
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_8qtwp"]
+bg_color = Color(0.05490196, 0.05882353, 0.05882353, 1)
+corner_radius_top_left = 12
+corner_radius_top_right = 12
+corner_radius_bottom_right = 12
+corner_radius_bottom_left = 12
+expand_margin_left = 25.0
+expand_margin_top = 5.0
+expand_margin_right = 25.0
+expand_margin_bottom = 5.0
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_nlkkf"]
+bg_color = Color(0.05490196, 0.05882353, 0.05882353, 1)
+corner_radius_top_left = 12
+corner_radius_top_right = 12
+corner_radius_bottom_right = 12
+corner_radius_bottom_left = 12
 expand_margin_left = 25.0
 expand_margin_top = 5.0
 expand_margin_right = 25.0
@@ -70,8 +137,11 @@ theme = SubResource("Theme_rhts7")
 theme_type_variation = &"FlatButton"
 theme_override_colors/font_color = Color(0.7921569, 0.95686275, 0.5176471, 1)
 theme_override_colors/font_pressed_color = Color(0.58205354, 0.95702064, 0.5179158, 1)
+theme_override_fonts/font = ExtResource("2_fu7sn")
 theme_override_font_sizes/font_size = 51
 theme_override_styles/normal = SubResource("StyleBoxFlat_06t4h")
+theme_override_styles/pressed = SubResource("StyleBoxFlat_qe12f")
+theme_override_styles/hover = SubResource("StyleBoxFlat_jix8l")
 text = "Start"
 
 [node name="OptionsButton" type="Button" parent="VBoxContainer"]
@@ -80,10 +150,12 @@ theme = SubResource("Theme_rhts7")
 theme_type_variation = &"FlatButton"
 theme_override_colors/font_color = Color(0.7921569, 0.95686275, 0.5176471, 1)
 theme_override_colors/font_pressed_color = Color(0.58205354, 0.95702064, 0.5179158, 1)
+theme_override_fonts/font = ExtResource("2_fu7sn")
 theme_override_font_sizes/font_size = 51
 theme_override_styles/normal = SubResource("StyleBoxFlat_06t4h")
-text = "Options
-"
+theme_override_styles/pressed = SubResource("StyleBoxFlat_fu7sn")
+theme_override_styles/hover = SubResource("StyleBoxFlat_glbon")
+text = "Options"
 
 [node name="QuitButton" type="Button" parent="VBoxContainer"]
 layout_mode = 2
@@ -92,8 +164,11 @@ theme = SubResource("Theme_rhts7")
 theme_type_variation = &"FlatButton"
 theme_override_colors/font_color = Color(0.7921569, 0.95686275, 0.5176471, 1)
 theme_override_colors/font_pressed_color = Color(0.58205354, 0.95702064, 0.5179158, 1)
+theme_override_fonts/font = ExtResource("2_fu7sn")
 theme_override_font_sizes/font_size = 51
 theme_override_styles/normal = SubResource("StyleBoxFlat_06t4h")
+theme_override_styles/pressed = SubResource("StyleBoxFlat_8qtwp")
+theme_override_styles/hover = SubResource("StyleBoxFlat_nlkkf")
 text = "Quit"
 
 [node name="Label" type="Label" parent="."]
