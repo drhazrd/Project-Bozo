@@ -3533,14 +3533,14 @@
 					"sampler":135,
 					"target":{
 						"node":46,
-						"path":"translation"
+						"path":"rotation"
 					}
 				},
 				{
 					"sampler":136,
 					"target":{
 						"node":46,
-						"path":"rotation"
+						"path":"translation"
 					}
 				}
 			],
@@ -5897,13 +5897,13 @@
 			"bufferView":257,
 			"componentType":5126,
 			"count":2,
-			"type":"VEC3"
+			"type":"VEC4"
 		},
 		{
 			"bufferView":258,
 			"componentType":5126,
 			"count":2,
-			"type":"VEC4"
+			"type":"VEC3"
 		}
 	],
 	"bufferViews":[
@@ -7201,13 +7201,13 @@
 		},
 		{
 			"buffer":0,
-			"byteLength":24,
+			"byteLength":32,
 			"byteOffset":101696
 		},
 		{
 			"buffer":0,
-			"byteLength":32,
-			"byteOffset":101720
+			"byteLength":24,
+			"byteOffset":101728
 		}
 	],
 	"buffers":[

@@ -4139,7 +4139,7 @@
 				},
 				{
 					"input":137,
-					"interpolation":"STEP",
+					"interpolation":"LINEAR",
 					"output":257
 				},
 				{

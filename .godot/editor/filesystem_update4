@@ -1,4 +1,2 @@
-res://Entities/Player Character/player_character.tscn
-res://Entities/Enemy/enemy_character.tscn
-res://Levels/Test Level/TestScene.tscn
-res://Entities/Enemy/enemy_character.gd
+res://main_menu.tscn
+res://main_menu.gd
