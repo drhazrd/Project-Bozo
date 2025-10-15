@@ -28,11 +28,12 @@ shadow_enabled = true
 use_collision = true
 size = Vector3(18.414307, 1, 36.41211)
 
-[node name="characterLargeMale" parent="." instance=ExtResource("1_mncer")]
+[node name="Cam Point" type="Node3D" parent="."]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1.1148176, 0)
-
-[node name="Rotation Point" type="Node3D" parent="characterLargeMale"]
 script = ExtResource("2_cguwc")
 
-[node name="Camera3D" type="Camera3D" parent="characterLargeMale/Rotation Point"]
+[node name="Camera3D" type="Camera3D" parent="Cam Point"]
 transform = Transform3D(0.70710677, 0.5, -0.5, 0, 0.7071068, 0.7071068, 0.70710677, -0.5, 0.5, -3.0377388, 4.1519747, 3.8164263)
+
+[node name="characterLargeMale" parent="." instance=ExtResource("1_mncer")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1.1148176, 0)
