@@ -1,0 +1,25 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://dy26lfio1wck8"
+path="res://.godot/imported/gravestone-wide.obj-3c4824d20858bcc1a7f12d6bd53eb18b.mesh"
+
+[deps]
+
+files=["res://.godot/imported/gravestone-wide.obj-3c4824d20858bcc1a7f12d6bd53eb18b.mesh"]
+
+source_file="res://Assets/Generic Assets Folder/Graveyard Kit/Models/OBJ format/gravestone-wide.obj"
+dest_files=["res://.godot/imported/gravestone-wide.obj-3c4824d20858bcc1a7f12d6bd53eb18b.mesh", "res://.godot/imported/gravestone-wide.obj-3c4824d20858bcc1a7f12d6bd53eb18b.mesh"]
+
+[params]
+
+generate_tangents=true
+generate_lods=true
+generate_shadow_mesh=true
+generate_lightmap_uv2=false
+generate_lightmap_uv2_texel_size=0.2
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+force_disable_mesh_compression=false

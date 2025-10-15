@@ -1,4 +1,7 @@
-res://TestScene.tscn
-res://rotation_point.gd
-res://character_medium.gd
 res://character_large_male.tscn
+res://TestScene.tscn
+res://Entities/Player Character/character_large_male.tscn
+res://Levels/Test Level/TestScene.tscn
+res://Entities/Player Character/player_movement.gd
+res://Levels/Test Level/camera_controller.gd
+res://Entities/Player Character/player_character.tscn

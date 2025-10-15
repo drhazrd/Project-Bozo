@@ -1,0 +1,25 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://bercbaa1xe2ym"
+path="res://.godot/imported/pine-fall.obj-692749ee8e64d9d9c8e38813b57def1b.mesh"
+
+[deps]
+
+files=["res://.godot/imported/pine-fall.obj-692749ee8e64d9d9c8e38813b57def1b.mesh"]
+
+source_file="res://Assets/Generic Assets Folder/Graveyard Kit/Models/OBJ format/pine-fall.obj"
+dest_files=["res://.godot/imported/pine-fall.obj-692749ee8e64d9d9c8e38813b57def1b.mesh", "res://.godot/imported/pine-fall.obj-692749ee8e64d9d9c8e38813b57def1b.mesh"]
+
+[params]
+
+generate_tangents=true
+generate_lods=true
+generate_shadow_mesh=true
+generate_lightmap_uv2=false
+generate_lightmap_uv2_texel_size=0.2
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+force_disable_mesh_compression=false

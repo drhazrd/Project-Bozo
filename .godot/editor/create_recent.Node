@@ -1,7 +1,7 @@
 Node3D
+Camera3D
 BoneAttachment3D
 CollisionShape3D
-Camera3D
 CharacterBody3D
 CharacterBody2D
 AnimationPlayer
