@@ -1,4 +1,7 @@
 Label
+HSlider
+Control
+AudioStreamPlayer      - Matches the "sound" keyword.
 Panel
 Node3D
 Camera3D
@@ -9,5 +12,3 @@ CharacterBody2D
 AnimationPlayer
 AnimationTree
 CSGBox3D
-GridMap
-MeshInstance3D
