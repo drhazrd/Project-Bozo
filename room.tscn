@@ -1,0 +1,101 @@
+[gd_scene load_steps=8 format=3 uid="uid://duvv4b04dw17g"]
+
+[ext_resource type="PackedScene" uid="uid://kbs8mrg6rfxe" path="res://Assets/Generic Assets Folder/Conveyer Kit/floor-large.glb" id="1_x5k2b"]
+[ext_resource type="PackedScene" uid="uid://bj3lpyhd8hatq" path="res://Assets/Generic Assets Folder/Conveyer Kit/floor.glb" id="2_8cv3p"]
+[ext_resource type="PackedScene" uid="uid://c2wcng3ha5mmg" path="res://Assets/Generic Assets Folder/Conveyer Kit/structure-wall.glb" id="3_01y1d"]
+[ext_resource type="PackedScene" uid="uid://co3rk770iy0uo" path="res://Assets/Generic Assets Folder/Conveyer Kit/structure-corner-inner.glb" id="4_42v8c"]
+[ext_resource type="PackedScene" uid="uid://b0av6j72iq6ag" path="res://Assets/Generic Assets Folder/Conveyer Kit/door.glb" id="5_mb7s7"]
+[ext_resource type="PackedScene" uid="uid://dvmbk3cjb8o4" path="res://Entities/Player Character/player_character.tscn" id="6_xorjj"]
+[ext_resource type="Script" uid="uid://dn6j1bakl81h" path="res://Levels/Test Level/camera_controller.gd" id="7_8cv3p"]
+
+[node name="Node3D" type="Node3D"]
+
+[node name="Node3D" type="Node3D" parent="."]
+transform = Transform3D(5, 0, 0, 0, 5, 0, 0, 0, 5, 0, 0, 0)
+
+[node name="floor-large2" parent="Node3D" instance=ExtResource("1_x5k2b")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.9982401, 0, 0.97391677)
+
+[node name="floor-large3" parent="Node3D" instance=ExtResource("1_x5k2b")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.99740076, 0.0088118315, -1.0034609)
+
+[node name="floor2" parent="Node3D" instance=ExtResource("2_8cv3p")]
+
+[node name="structure-wall2" parent="Node3D" instance=ExtResource("3_01y1d")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1, 0, 2)
+
+[node name="structure-wall3" parent="Node3D" instance=ExtResource("3_01y1d")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 2)
+
+[node name="structure-wall5" parent="Node3D" instance=ExtResource("3_01y1d")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1, 0, 2)
+
+[node name="structure-wall14" parent="Node3D" instance=ExtResource("3_01y1d")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2, 0, 2)
+
+[node name="structure-wall15" parent="Node3D" instance=ExtResource("3_01y1d")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 3, 0, 2)
+
+[node name="structure-wall16" parent="Node3D" instance=ExtResource("3_01y1d")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 3, 0, 2)
+
+[node name="structure-wall6" parent="Node3D" instance=ExtResource("3_01y1d")]
+transform = Transform3D(-1, 0, -1.509958e-07, 0, 1, 0, 1.509958e-07, 0, -1, -1, 0, -2)
+
+[node name="structure-wall7" parent="Node3D" instance=ExtResource("3_01y1d")]
+transform = Transform3D(-1, 0, 1.509958e-07, 0, 1, 0, -1.509958e-07, 0, -1, 0, 0, -2)
+
+[node name="structure-wall10" parent="Node3D" instance=ExtResource("3_01y1d")]
+transform = Transform3D(-1, 0, 1.509958e-07, 0, 1, 0, -1.509958e-07, 0, -1, 1, 0, -2)
+
+[node name="structure-wall11" parent="Node3D" instance=ExtResource("3_01y1d")]
+transform = Transform3D(-1, 0, 1.509958e-07, 0, 1, 0, -1.509958e-07, 0, -1, 2, 0, -2)
+
+[node name="structure-wall12" parent="Node3D" instance=ExtResource("3_01y1d")]
+transform = Transform3D(-1, 0, 1.509958e-07, 0, 1, 0, -1.509958e-07, 0, -1, 3, 0, -2)
+
+[node name="structure-corner-inner2" parent="Node3D" instance=ExtResource("4_42v8c")]
+transform = Transform3D(-4.371139e-08, 0, -1, 0, 1, 0, 1, 0, -4.371139e-08, -2, 0, 2)
+
+[node name="structure-wall4" parent="Node3D" instance=ExtResource("3_01y1d")]
+transform = Transform3D(-4.371139e-08, 0, -1, 0, 1, 0, 1, 0, -4.371139e-08, -2, 0, 1)
+
+[node name="structure-wall8" parent="Node3D" instance=ExtResource("3_01y1d")]
+transform = Transform3D(-4.371139e-08, 0, -1, 0, 1, 0, 1, 0, -4.371139e-08, -2, 0, 0)
+
+[node name="structure-wall9" parent="Node3D" instance=ExtResource("3_01y1d")]
+transform = Transform3D(-4.371139e-08, 0, -1, 0, 1, 0, 1, 0, -4.371139e-08, -2, 0, -1)
+
+[node name="structure-corner-inner3" parent="Node3D" instance=ExtResource("4_42v8c")]
+transform = Transform3D(-1, 0, -1.509958e-07, 0, 1, 0, 1.509958e-07, 0, -1, -2, 0, -2)
+
+[node name="door3" parent="Node3D" instance=ExtResource("5_mb7s7")]
+transform = Transform3D(7.54979e-08, 0, -1, 0, 1, 0, 1, 0, 7.54979e-08, 4.4, 0, 0)
+
+[node name="floor-large4" parent="Node3D" instance=ExtResource("1_x5k2b")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1, 0, -1)
+
+[node name="floor-large5" parent="Node3D" instance=ExtResource("1_x5k2b")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1, 0, 1)
+
+[node name="floor-large6" parent="Node3D" instance=ExtResource("1_x5k2b")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 3, 0, 1)
+
+[node name="floor-large7" parent="Node3D" instance=ExtResource("1_x5k2b")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 3, 0, -1)
+
+[node name="structure-corner-inner4" parent="Node3D" instance=ExtResource("4_42v8c")]
+transform = Transform3D(-4.371139e-08, 0, 1, 0, 1, 0, -1, 0, -4.371139e-08, 4, 0, -2)
+
+[node name="structure-corner-inner5" parent="Node3D" instance=ExtResource("4_42v8c")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 4, 0, 2)
+
+[node name="Player Character" parent="." instance=ExtResource("6_xorjj")]
+transform = Transform3D(7.54979e-08, 0, -1, 0, 1, 0, 1, 0, 7.54979e-08, 57, 1.819695, 3.0000002)
+
+[node name="Camera Controller" type="Node3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 77, 0, 0)
+script = ExtResource("7_8cv3p")
+
+[node name="Camera3D" type="Camera3D" parent="Camera Controller"]
+transform = Transform3D(0.7071068, 0.5, -0.5, 0, 0.7071068, 0.7071068, 0.7071068, -0.5, 0.5, -5, 8, 5)
