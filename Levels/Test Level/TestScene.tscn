@@ -1,11 +1,20 @@
-[gd_scene load_steps=10 format=3 uid="uid://457eji0kpom4"]
+[gd_scene load_steps=19 format=3 uid="uid://457eji0kpom4"]
 
 [ext_resource type="Script" uid="uid://cbbwryn4ijg2c" path="res://Levels/Test Level/enemy_controller.gd" id="1_agua6"]
 [ext_resource type="PackedScene" uid="uid://dvmbk3cjb8o4" path="res://Entities/Player Character/player_character.tscn" id="1_q78tl"]
 [ext_resource type="Script" uid="uid://dn6j1bakl81h" path="res://Levels/Test Level/camera_controller.gd" id="2_37kuv"]
 [ext_resource type="PackedScene" uid="uid://th650eepkt0n" path="res://Entities/Enemy/enemy_character.tscn" id="2_ud7gw"]
 [ext_resource type="Material" uid="uid://drp0rgb2de28p" path="res://Entities/Enemy/Enemy Materials/robot1.tres" id="3_42213"]
+[ext_resource type="Material" uid="uid://b23rrl7s4686i" path="res://Entities/Enemy/Enemy Materials/BusinessMan1.tres" id="3_oeq5l"]
 [ext_resource type="Material" uid="uid://dx8h0a1xfn42u" path="res://Entities/Enemy/Enemy Materials/robot2.tres" id="4_drbpy"]
+[ext_resource type="Material" uid="uid://mgs321vvpbjg" path="res://Entities/Enemy/Enemy Materials/BusinessMan2.tres" id="4_rhst6"]
+[ext_resource type="Material" uid="uid://cduxdwkr35ey1" path="res://Entities/Enemy/Enemy Materials/Cyborg.tres" id="5_k78pu"]
+[ext_resource type="Material" uid="uid://djglmn17roqth" path="res://Entities/Enemy/Enemy Materials/Military1.tres" id="6_tdyi7"]
+[ext_resource type="Material" uid="uid://hfvpmyw0hbba" path="res://Entities/Enemy/Enemy Materials/Military2.tres" id="7_1lfut"]
+[ext_resource type="Material" uid="uid://dxro35igr82u" path="res://Entities/Enemy/Enemy Materials/Military3.tres" id="8_urirw"]
+[ext_resource type="Material" uid="uid://twvfo0sriwn7" path="res://Entities/Enemy/Enemy Materials/Military4.tres" id="9_tdohw"]
+[ext_resource type="Material" uid="uid://cow45n3m0ak68" path="res://Entities/Enemy/Enemy Materials/Robot3.tres" id="12_tu701"]
+[ext_resource type="PackedScene" uid="uid://cyey7tl1exxko" path="res://Levels/In Game UI/ui.tscn" id="15_rhst6"]
 
 [sub_resource type="ProceduralSkyMaterial" id="ProceduralSkyMaterial_cguwc"]
 sky_horizon_color = Color(0.66224277, 0.6717428, 0.6867428, 1)
@@ -36,7 +45,7 @@ size = Vector3(25, 0.1, 25)
 script = ExtResource("1_agua6")
 enemy_scene = ExtResource("2_ud7gw")
 spawn_interval = 0.1
-enemy_materials = Array[Material]([ExtResource("3_42213"), ExtResource("4_drbpy")])
+enemy_materials = Array[Material]([ExtResource("3_oeq5l"), ExtResource("4_rhst6"), ExtResource("5_k78pu"), ExtResource("6_tdyi7"), ExtResource("7_1lfut"), ExtResource("8_urirw"), ExtResource("9_tdohw"), ExtResource("3_42213"), ExtResource("4_drbpy"), ExtResource("12_tu701")])
 
 [node name="SpawnTimer" type="Timer" parent="Enemy Controller"]
 
@@ -47,3 +56,6 @@ script = ExtResource("2_37kuv")
 
 [node name="Camera3D" type="Camera3D" parent="Camera Controller"]
 transform = Transform3D(0.7071068, 0.5, -0.5, 0, 0.7071068, 0.7071068, 0.7071068, -0.5, 0.5, -5, 8, 5)
+
+[node name="UI" parent="." node_paths=PackedStringArray("player") instance=ExtResource("15_rhst6")]
+player = NodePath("../Player Character")

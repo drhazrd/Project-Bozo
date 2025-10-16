@@ -1,0 +1,6 @@
+[gd_resource type="StandardMaterial3D" load_steps=2 format=3 uid="uid://hfvpmyw0hbba"]
+
+[ext_resource type="Texture2D" uid="uid://dcxbtvt5i2mrg" path="res://Assets/Character Skins/militaryFemaleB.png" id="1_f1nl8"]
+
+[resource]
+albedo_texture = ExtResource("1_f1nl8")

@@ -17,10 +17,13 @@ var enemies: Array = []
 func _ready() -> void:
 	spawn_timer.wait_time = spawn_interval
 	spawn_timer.timeout.connect(_on_spawn_timer_timeout)
+	await get_tree().process_frame
 	spawn_timer.start()
 
 
 func _on_spawn_timer_timeout() -> void:
+	if !is_instance_valid(player) or !player.is_inside_tree():
+		return
 	enemies = enemies.filter(func(e): return is_instance_valid(e))
 	if enemies.size() >= max_enemies:
 		return
@@ -30,7 +33,7 @@ func _on_spawn_timer_timeout() -> void:
 	var spawn_pos = player.global_position + offset
 	var enemy = enemy_scene.instantiate()
 	var material = enemy_materials.pick_random().duplicate()
-	enemy.global_position = spawn_pos
+	enemy.position = spawn_pos
 	enemy.enemy_material = material
 	add_child(enemy)
 	enemies.append(enemy)

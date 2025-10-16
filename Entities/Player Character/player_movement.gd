@@ -4,7 +4,7 @@ extends CharacterBody3D
 @onready var camera_3d: Camera3D = $"../Camera Controller/Camera3D"
 
 
-const SPEED = 5.0
+const SPEED = 10.0
 const JUMP_VELOCITY = 4.5
 const TURN_SPEED = 8.0
 

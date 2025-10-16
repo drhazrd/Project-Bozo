@@ -1,6 +1,8 @@
 Label
-HSlider
 Control
+TextureRect
+Container
+HSlider
 AudioStreamPlayer      - Matches the "sound" keyword.
 Panel
 Node3D
@@ -10,5 +12,3 @@ CollisionShape3D
 CharacterBody3D
 CharacterBody2D
 AnimationPlayer
-AnimationTree
-CSGBox3D
