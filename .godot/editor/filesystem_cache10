@@ -1,13 +1,13 @@
 63f7b34db8d8cdea90c76aacccf841ec
-::res://::1760664076
-default_bus_layout.tres::AudioBusLayout::7604656968985771639::1760555181::0::1::::<><><>0<>0<><>::
-main_menu.gd::GDScript::6683196165632965570::1760553850::0::1::::<>Control<><>0<>0<><>::
-main_menu.tscn::PackedScene::3628565735197041961::1760623083::0::1::::<><><>0<>0<><>::uid://bhji2feoaevbb::::res://Assets/Fonts/Ov3Read Bold.ttf<>uid://c2hni8w2a7bgs::::res://main_menu.gd<>uid://blybhqqgw65qr::::res://Assets/Fonts/VemanemX-Regular.ttf<>uid://cyhtq6tg8iruu::::res://Assets/Sound/MenuMusic1.wav<>uid://deerhervrb1yd::::res://option_sliders.gd
+::res://::1760668835
+default_bus_layout.tres::AudioBusLayout::7604656968985771639::1760665377::0::1::::<><><>0<>0<><>::
+main_menu.gd::GDScript::6683196165632965570::1760668755::0::1::::<>Control<><>0<>0<><>::
+main_menu.tscn::PackedScene::3628565735197041961::1760668835::0::1::::<><><>0<>0<><>::uid://bhji2feoaevbb::::res://Assets/Fonts/Ov3Read Bold.ttf<>uid://c2hni8w2a7bgs::::res://main_menu.gd<>uid://blybhqqgw65qr::::res://Assets/Fonts/VemanemX-Regular.ttf<>uid://cyhtq6tg8iruu::::res://Assets/Sound/MenuMusic1.wav<>uid://deerhervrb1yd::::res://option_sliders.gd
 option_sliders.gd::GDScript::7449319863414043411::1760555034::0::1::::<>VBoxContainer<><>0<>0<><>::
 ReadmE.md::TextFile::-1::1760549256::0::1::::<><><>0<>0<><>::
 room.tscn::PackedScene::8607717794012536558::1760664032::0::1::::<><><>0<>0<><>::uid://kbs8mrg6rfxe::::res://Assets/Generic Assets Folder/Conveyer Kit/floor-large.glb<>uid://bj3lpyhd8hatq::::res://Assets/Generic Assets Folder/Conveyer Kit/floor.glb<>uid://c2wcng3ha5mmg::::res://Assets/Generic Assets Folder/Conveyer Kit/structure-wall.glb<>uid://co3rk770iy0uo::::res://Assets/Generic Assets Folder/Conveyer Kit/structure-corner-inner.glb<>uid://b0av6j72iq6ag::::res://Assets/Generic Assets Folder/Conveyer Kit/door.glb<>uid://dvmbk3cjb8o4::::res://Entities/Player Character/player_character.tscn<>uid://dn6j1bakl81h::::res://Levels/Test Level/camera_controller.gd
 ::res://Assets/::1760551899
-::res://Assets/Character Skins/::1760664032
+::res://Assets/Character Skins/::1760664078
 businessMaleA.png::CompressedTexture2D::6480156480558504108::1760549459::1760549507::1::::<><><>0<>0<>2dcf2b968d684fb379da5c5c654d3aca<>res://.godot/imported/businessMaleA.png-16cfca13636ec18195fbadf8e4d1bcc4.s3tc.ctex::
 businessMaleB.png::CompressedTexture2D::6471917393464366703::1760549459::1760664078::1::::<><><>0<>0<>01168e5f6c045a750682cc7b49959bb5<>res://.godot/imported/businessMaleB.png-d9d36a9e29102ba1fd8a04e840767dc0.s3tc.ctex::
 cyborg.png::CompressedTexture2D::2227780267632930445::1760549459::1760549507::1::::<><><>0<>0<>cfbeba65452bb9b16b62732a1838d522<>res://.godot/imported/cyborg.png-90e93b3e965158c20bfb2342b0fde8ea.s3tc.ctex::
@@ -260,7 +260,7 @@ survivorMaleB.svg::CompressedTexture2D::7556437064252040881::1760549256::1760549
 zombieA.svg::CompressedTexture2D::8234034106676848376::1760549256::1760549508::1::::<><><>0<>0<>cd4da0d363a847a59589255947e74a30<>res://.godot/imported/zombieA.svg-4849588db8aa8c1a37cfeab04c8e4fad.ctex::
 zombieB.svg::CompressedTexture2D::6995355404788079242::1760549256::1760549508::1::::<><><>0<>0<>ca13698d31e4eaa20dcdd400ad3df055<>res://.godot/imported/zombieB.svg-58b9957cd30b5a46eb6d5c7413abdeb2.ctex::
 zombieC.svg::CompressedTexture2D::4248888727657117824::1760549256::1760549508::1::::<><><>0<>0<>a803f485f52b50103189422718fc6d8d<>res://.godot/imported/zombieC.svg-d98872865a5dad960906e039aeb26b00.ctex::
-::res://Assets/Generic Assets Folder/City Kit Industrial/::1760664032
+::res://Assets/Generic Assets Folder/City Kit Industrial/::1760664087
 building-a.glb::PackedScene::1579171815633013839::1760664032::1760664082::1::::<><><>0<>0<>0781b847d14ef0ee4c25320844484b28<>res://.godot/imported/building-a.glb-0b267bf4172f737c7edd69f496e34b1b.scn::uid://dtgvsrfq3l6nu::::res://Assets/Generic Assets Folder/City Kit Industrial/Textures/colormap.png
 building-b.glb::PackedScene::4992621233029343469::1760664032::1760664082::1::::<><><>0<>0<>0262a533b5394c7df83852ed5010f0ae<>res://.godot/imported/building-b.glb-647c2e40957a6072e8c329bdcc02ab17.scn::uid://dtgvsrfq3l6nu::::res://Assets/Generic Assets Folder/City Kit Industrial/Textures/colormap.png
 building-c.glb::PackedScene::2852289991684780671::1760664032::1760664082::1::::<><><>0<>0<>59be7dc500f82a4045d93d08671f6d99<>res://.godot/imported/building-c.glb-1879bb426565a418a00ad7d05a689589.scn::uid://dtgvsrfq3l6nu::::res://Assets/Generic Assets Folder/City Kit Industrial/Textures/colormap.png
@@ -286,9 +286,9 @@ chimney-large.glb::PackedScene::3646779600163665900::1760664032::1760664086::1::
 chimney-medium.glb::PackedScene::5420739574071557746::1760664032::1760664086::1::::<><><>0<>0<>a85b673ec5cf18c546f563ab9e954fff<>res://.godot/imported/chimney-medium.glb-1a79079cc3dd9012bb7f0b469ba27c2b.scn::uid://dtgvsrfq3l6nu::::res://Assets/Generic Assets Folder/City Kit Industrial/Textures/colormap.png
 chimney-small.glb::PackedScene::8888585230787837630::1760664032::1760664086::1::::<><><>0<>0<>ff4210ab6e551bb613b7b77dca5444ae<>res://.godot/imported/chimney-small.glb-539715804a46a2357b13817b106fd9a7.scn::uid://dtgvsrfq3l6nu::::res://Assets/Generic Assets Folder/City Kit Industrial/Textures/colormap.png
 detail-tank.glb::PackedScene::6446563868241310944::1760664032::1760664087::1::::<><><>0<>0<>57689c8b1f37006ea22f177023eb659d<>res://.godot/imported/detail-tank.glb-f96b799d1a5ced4819cde5cec246811a.scn::uid://dtgvsrfq3l6nu::::res://Assets/Generic Assets Folder/City Kit Industrial/Textures/colormap.png
-::res://Assets/Generic Assets Folder/City Kit Industrial/Textures/::1760664032
+::res://Assets/Generic Assets Folder/City Kit Industrial/Textures/::1760664088
 colormap.png::CompressedTexture2D::8506544449250488354::1760664032::1760664088::1::::<><><>0<>0<>fafbb75233d432a0dd40a27313593885<>res://.godot/imported/colormap.png-0b3e6482400fd4fd04dad7da3ed3b11e.s3tc.ctex::
-::res://Assets/Generic Assets Folder/Conveyer Kit/::1760664032
+::res://Assets/Generic Assets Folder/Conveyer Kit/::1760664088
 arrow-basic.glb::PackedScene::3331196267966518935::1760664032::1760664087::1::::<><><>0<>0<>31e8f95546ff9ef60a4f7415807087c5<>res://.godot/imported/arrow-basic.glb-e2b6d677c92f6d26d7b0f8bcbc5124e7.scn::uid://bvxn7h4luywij::::res://Assets/Generic Assets Folder/Conveyer Kit/Textures/colormap.png
 arrow.glb::PackedScene::658437199058627086::1760664032::1760664087::1::::<><><>0<>0<>ab43671f312255262aa6fc074b5244a9<>res://.godot/imported/arrow.glb-bb7c5b978b7ffc156802588e4091f993.scn::uid://bvxn7h4luywij::::res://Assets/Generic Assets Folder/Conveyer Kit/Textures/colormap.png
 box-large.glb::PackedScene::6534962633608099576::1760664032::1760664087::1::::<><><>0<>0<>cfb7267ded10f9899ddd15f8f1cb5729<>res://.godot/imported/box-large.glb-5b581caf5e3262b89a78b184b0f46c75.scn::uid://bvxn7h4luywij::::res://Assets/Generic Assets Folder/Conveyer Kit/Textures/colormap.png
@@ -350,7 +350,7 @@ structure-yellow-short.glb::PackedScene::2109371947716282055::1760664032::176066
 structure-yellow-tall.glb::PackedScene::8686512320820157925::1760664032::1760664084::1::::<><><>0<>0<>8f0d3ba8c38726724c01679eba0fd678<>res://.godot/imported/structure-yellow-tall.glb-26767105598e22865ca156fafb72fbfc.scn::uid://bvxn7h4luywij::::res://Assets/Generic Assets Folder/Conveyer Kit/Textures/colormap.png
 top-large.glb::PackedScene::1846363621439075698::1760664032::1760664084::1::::<><><>0<>0<>ea32d6cd31111aa8d189d4227c10708e<>res://.godot/imported/top-large.glb-0bf8333ef142931ed3812571c7c75780.scn::uid://bvxn7h4luywij::::res://Assets/Generic Assets Folder/Conveyer Kit/Textures/colormap.png
 top.glb::PackedScene::2720763424915184022::1760664032::1760664085::1::::<><><>0<>0<>959e7904a3ba0be05e60509fc2b723a5<>res://.godot/imported/top.glb-ba993c8347e0f85ee1168a189b9c7d7e.scn::uid://bvxn7h4luywij::::res://Assets/Generic Assets Folder/Conveyer Kit/Textures/colormap.png
-::res://Assets/Generic Assets Folder/Conveyer Kit/Textures/::1760664032
+::res://Assets/Generic Assets Folder/Conveyer Kit/Textures/::1760664088
 colormap.png::CompressedTexture2D::3908713967736341137::1760664032::1760664088::1::::<><><>0<>0<>5cdac020ffb912271a4c3c34f6e8ec14<>res://.godot/imported/colormap.png-e97cd7f78efc621c7158d48cd8029cbc.s3tc.ctex::
 ::res://Assets/Generic Assets Folder/Graveyard Kit/::1760549506
 License.txt::TextFile::-1::1760549256::0::1::::<><><>0<>0<><>::
@@ -449,7 +449,7 @@ stone-wall.obj::Mesh::8721262002029605821::1760549256::1760549509::1::::<><><>0<
 trunk-long.obj::Mesh::7649271138644813536::1760549256::1760549508::1::::<><><>0<>0<>cbd462d24a1450f03c0393c2b4dc44dd<>res://.godot/imported/trunk-long.obj-5a0630f628abe371bdd437c4df91a56b.mesh<*>res://.godot/imported/trunk-long.obj-5a0630f628abe371bdd437c4df91a56b.mesh::uid://c0vplkbxaakq7::::res://Assets/Generic Assets Folder/Graveyard Kit/Models/OBJ format/Textures/colormap.png
 trunk.obj::Mesh::7706294632184972633::1760549256::1760549508::1::::<><><>0<>0<>dc8dbd3a536f9ebfa187606bf7414da9<>res://.godot/imported/trunk.obj-d9422d29e6171a86cf98e6b3cb3da7ab.mesh<*>res://.godot/imported/trunk.obj-d9422d29e6171a86cf98e6b3cb3da7ab.mesh::uid://c0vplkbxaakq7::::res://Assets/Generic Assets Folder/Graveyard Kit/Models/OBJ format/Textures/colormap.png
 urn.obj::Mesh::1139119251036600907::1760549256::1760549508::1::::<><><>0<>0<>c1847961183e2f7df10052a051f9ae41<>res://.godot/imported/urn.obj-080fcd394f8e71a8c605179e74b964b4.mesh<*>res://.godot/imported/urn.obj-080fcd394f8e71a8c605179e74b964b4.mesh::uid://c0vplkbxaakq7::::res://Assets/Generic Assets Folder/Graveyard Kit/Models/OBJ format/Textures/colormap.png
-::res://Assets/Generic Assets Folder/Graveyard Kit/Models/OBJ format/Textures/::1760664032
+::res://Assets/Generic Assets Folder/Graveyard Kit/Models/OBJ format/Textures/::1760664078
 colormap.png::CompressedTexture2D::5229771178009588380::1760549256::1760664078::1::::<><><>0<>0<>87198535898aaeed4cd310fe23991a0c<>res://.godot/imported/colormap.png-da5eeccc907d1cba86ecee7de6e7347c.s3tc.ctex::
 ::res://Assets/Generic Assets Folder/Graveyard Kit/Previews/::1760549506
 altar-stone.png::CompressedTexture2D::4014469038514926088::1760549256::1760549506::1::::<><><>0<>0<>9bdc1d52d366ac22d0ef7c514cf324e9<>res://.godot/imported/altar-stone.png-59bf4ebb962499bd6e2348930a6fe232.ctex::
@@ -552,33 +552,33 @@ Image_4.png::CompressedTexture2D::5352277081834729744::1760549256::1760549506::1
 Image_5.png::CompressedTexture2D::1302753016502101153::1760549256::1760549506::1::::<><><>0<>0<>f8ab5d9e18345853a6619a5a4f81c30b<>res://.godot/imported/Image_5.png-d89373c37d940a8e2e2f936cac1a05bb.ctex::
 ::res://Assets/Generic Assets Folder/UI Assets/::1760664032
 ::res://Assets/Generic Assets Folder/UI Assets/Textures/::1760664032
-::res://Assets/Generic Assets Folder/UI Assets/Textures/Avatars/::1760664032
+::res://Assets/Generic Assets Folder/UI Assets/Textures/Avatars/::1760664078
 Lobby_Avatar_Example.png::CompressedTexture2D::3118654586747606358::1760664032::1760664078::1::::<><><>0<>0<>c75626b5e7c084c74bb1a9b41f080db9<>res://.godot/imported/Lobby_Avatar_Example.png-e290605fdb1e4f03979b8bc595a5e3d3.ctex::
 Lobby_Friends_Avatar_Example.png::CompressedTexture2D::337551412334964753::1760664032::1760664078::1::::<><><>0<>0<>d5f91160022344daa8f69e182f4374d9<>res://.godot/imported/Lobby_Friends_Avatar_Example.png-f0b10349508bab8233d20c100a6e8492.ctex::
-::res://Assets/Generic Assets Folder/UI Assets/Textures/Bars/::1760664032
+::res://Assets/Generic Assets Folder/UI Assets/Textures/Bars/::1760664078
 BulletBar_Horizontal_Active.png::CompressedTexture2D::7486400646992045918::1760664032::1760664078::1::::<><><>0<>0<>2167fb852d2d551bd2cf82c73479c846<>res://.godot/imported/BulletBar_Horizontal_Active.png-1285dc7327fa65ec352e50ee328199a9.ctex::
 BulletBar_Horizontal_Empty.png::CompressedTexture2D::3417010616469533388::1760664032::1760664078::1::::<><><>0<>0<>936de68c3accd6b2da29d82269ccffda<>res://.godot/imported/BulletBar_Horizontal_Empty.png-633eeba9855d3b88a57f21dbc51f5db3.ctex::
 LoadingBar_Ending.png::CompressedTexture2D::7836398609162687206::1760664032::1760664078::1::::<><><>0<>0<>9954049626b87c7f3e2c5c1204cefcb8<>res://.godot/imported/LoadingBar_Ending.png-33b74cd257c3db6daabe43e9b86bc84e.ctex::
 LoadingBar_Ending_Overlay.png::CompressedTexture2D::1997558593700136543::1760664032::1760664078::1::::<><><>0<>0<>18eb4a0d84f581059b5dc76969c80720<>res://.godot/imported/LoadingBar_Ending_Overlay.png-2c7bfb20d064266ba17ce22555fa60b9.ctex::
 ::res://Assets/Generic Assets Folder/UI Assets/Textures/Buttons/::1760664032
-::res://Assets/Generic Assets Folder/UI Assets/Textures/Buttons/Icons/::1760664032
+::res://Assets/Generic Assets Folder/UI Assets/Textures/Buttons/Icons/::1760664078
 Button_Icon_AddFavorite.png::CompressedTexture2D::763929767384800950::1760664032::1760664078::1::::<><><>0<>0<>09d998f07ae96c8607520bf4dda87ffc<>res://.godot/imported/Button_Icon_AddFavorite.png-6887af3296a0dd9d62b449d5db8ab161.ctex::
 Button_Icon_AddFriend.png::CompressedTexture2D::3943478898414002971::1760664032::1760664078::1::::<><><>0<>0<>fccf76f951449cb73da588c08bb78186<>res://.godot/imported/Button_Icon_AddFriend.png-aaeeced95959d8420a79411d5f74be1d.ctex::
 ::res://Assets/Generic Assets Folder/UI Assets/Textures/Buttons/Rectangular/::1760664032
-::res://Assets/Generic Assets Folder/UI Assets/Textures/Buttons/Rectangular/Bordered/::1760664032
+::res://Assets/Generic Assets Folder/UI Assets/Textures/Buttons/Rectangular/Bordered/::1760664078
 Button_RB_Background_1.png::CompressedTexture2D::3676090443354869453::1760664032::1760664078::1::::<><><>0<>0<>b82ae07d6237af470225a08a9757621d<>res://.godot/imported/Button_RB_Background_1.png-ed2af08de27ede3c30ac20e5c6f69cf9.ctex::
 Button_RB_Background_2.png::CompressedTexture2D::3472411826367391548::1760664032::1760664078::1::::<><><>0<>0<>c6b163c936609ee9995f8c2ead536ea1<>res://.godot/imported/Button_RB_Background_2.png-be5db21ed2a9bce00fda82a6352b7a4b.ctex::
 Button_RB_Borders.png::CompressedTexture2D::8238601796395631788::1760664032::1760664078::1::::<><><>0<>0<>bfd647e148a3f1d00a16ccbeee5338b8<>res://.godot/imported/Button_RB_Borders.png-ca2d9aef97a82f2b3858aca949b68f98.ctex::
 Button_RB_Hover.png::CompressedTexture2D::6346576457942485972::1760664032::1760664077::1::::<><><>0<>0<>3e6054a96b2270d321489e62503408a2<>res://.godot/imported/Button_RB_Hover.png-fa1a1576a25e084412e9b37e3b9edd83.ctex::
 Button_RB_Hover_Gradient.png::CompressedTexture2D::9141042876297433547::1760664032::1760664077::1::::<><><>0<>0<>aa17c0aa0e6d589eb515543dae6887d4<>res://.godot/imported/Button_RB_Hover_Gradient.png-e493cf2a82eb1b76796ded65bbcbd73f.ctex::
-::res://Assets/Generic Assets Folder/UI Assets/Textures/Buttons/Rectangular/Simple/::1760664032
+::res://Assets/Generic Assets Folder/UI Assets/Textures/Buttons/Rectangular/Simple/::1760664077
 Button_RS_Background_Dark.png::CompressedTexture2D::599047606095003610::1760664032::1760664077::1::::<><><>0<>0<>90c6ecb5f0f3dbd3ad5cd8bf37de8def<>res://.godot/imported/Button_RS_Background_Dark.png-7c29da72a7f313bab0fed4941b24cc38.ctex::
 Button_RS_Background_Light.png::CompressedTexture2D::7718863113964590609::1760664032::1760664077::1::::<><><>0<>0<>29370e4f799328fd9d0f5bc242e3ec72<>res://.godot/imported/Button_RS_Background_Light.png-12da3371c6f659ae2122754beb714468.ctex::
 Button_RS_Hover_Border.png::CompressedTexture2D::6512319043147333866::1760664032::1760664077::1::::<><><>0<>0<>93c6e689dc9110cc13adae1594041259<>res://.godot/imported/Button_RS_Hover_Border.png-e602acb24b634332376878d135177f35.ctex::
 Button_RS_Hover_Gradient.png::CompressedTexture2D::1688756669941585809::1760664032::1760664077::1::::<><><>0<>0<>862713e3906ec313db8c57af7b9b855a<>res://.godot/imported/Button_RS_Hover_Gradient.png-0498f26a008647d85b6bc264d765c546.ctex::
-::res://Assets/Generic Assets Folder/UI Assets/Textures/Cursors/::1760664032
+::res://Assets/Generic Assets Folder/UI Assets/Textures/Cursors/::1760664077
 Cursor_Normal.png::CompressedTexture2D::1973345725752894467::1760664032::1760664077::1::::<><><>0<>0<>82512fc991cb0647e064e409dc171ba2<>res://.godot/imported/Cursor_Normal.png-74dfd317b1976011a734f1d29ac666e5.ctex::
-::res://Assets/Generic Assets Folder/UI Assets/Textures/Demo/::1760664032
+::res://Assets/Generic Assets Folder/UI Assets/Textures/Demo/::1760664079
 Demo_Background_1.png::CompressedTexture2D::1394132873226892294::1760664032::1760664079::1::::<><><>0<>0<>56061821265996ce556298f2a3159786<>res://.godot/imported/Demo_Background_1.png-52046fe3514b8515161ba61887169f9b.ctex::
 Demo_Background_2.png::CompressedTexture2D::8501457777525458026::1760664032::1760664078::1::::<><><>0<>0<>fc588284c502335fedf7516a8e104cb7<>res://.godot/imported/Demo_Background_2.png-47811c131382661620d20d57bb7dabb3.ctex::
 Demo_Background_3.png::CompressedTexture2D::7135101985536112639::1760664032::1760664079::1::::<><><>0<>0<>c34b9bb9d47e3c1f4fdb8fa24f665518<>res://.godot/imported/Demo_Background_3.png-e23342f8830c8361ba89872fdceaf0d5.ctex::
@@ -586,114 +586,114 @@ Demo_HUD_Background.png::CompressedTexture2D::5941106046671707165::1760664032::1
 Demo_Logo.png::CompressedTexture2D::1241311060854647656::1760664032::1760664077::1::::<><><>0<>0<>f96aa1ca256cc2341f0d0432f133d83f<>res://.godot/imported/Demo_Logo.png-90602f6e4a48547785329a05568b0db2.ctex::
 ::res://Assets/Generic Assets Folder/UI Assets/Textures/Examples/::1760664032
 ::res://Assets/Generic Assets Folder/UI Assets/Textures/Examples/Lobby/::1760664032
-::res://Assets/Generic Assets Folder/UI Assets/Textures/Examples/Lobby/Brwose Game/::1760664032
+::res://Assets/Generic Assets Folder/UI Assets/Textures/Examples/Lobby/Brwose Game/::1760664077
 Lobby_Browse_Game_Example_Image.png::CompressedTexture2D::1796133536504208150::1760664032::1760664077::1::::<><><>0<>0<>1790905fd308ad9001b81c9250dbfa54<>res://.godot/imported/Lobby_Browse_Game_Example_Image.png-c0eda4c2e645e8b38e26ecbf19fd4c09.ctex::
-::res://Assets/Generic Assets Folder/UI Assets/Textures/Examples/Lobby/Create Class/::1760664032
+::res://Assets/Generic Assets Folder/UI Assets/Textures/Examples/Lobby/Create Class/::1760664078
 Lobby_CreateClass_Example_AssaultRifle.png::CompressedTexture2D::4022997163363940233::1760664032::1760664078::1::::<><><>0<>0<>72cf059353e367f9e171c970d6a55fc4<>res://.godot/imported/Lobby_CreateClass_Example_AssaultRifle.png-866ce23f1437742e3547964cc5104ac8.ctex::
 Lobby_CreateClass_Example_Soldier.png::CompressedTexture2D::7697853720669334741::1760664032::1760664078::1::::<><><>0<>0<>1072087a34fff16af2a66e0270dd5144<>res://.godot/imported/Lobby_CreateClass_Example_Soldier.png-9fdd6c512d385e513cb88aed27ce2ecb.ctex::
 ::res://Assets/Generic Assets Folder/UI Assets/Textures/HUD/::1760664032
-::res://Assets/Generic Assets Folder/UI Assets/Textures/HUD/Crosshair/::1760664032
+::res://Assets/Generic Assets Folder/UI Assets/Textures/HUD/Crosshair/::1760664077
 Crosshair_Circle.png::CompressedTexture2D::7388188505470129405::1760664032::1760664077::1::::<><><>0<>0<>ffe6739600336b80aebb029a148c968e<>res://.godot/imported/Crosshair_Circle.png-2645f812cf3873fd10976de9858d1198.ctex::
 Crosshair_Dot.png::CompressedTexture2D::9162392827928363884::1760664032::1760664077::1::::<><><>0<>0<>5c52a2c5d9f7e3773f19b28567d18a0f<>res://.godot/imported/Crosshair_Dot.png-869d361a41052ab0a510c21454de1c66.ctex::
 Crosshair_Line_Horizontal.png::CompressedTexture2D::6999076288858430738::1760664032::1760664077::1::::<><><>0<>0<>924791c995714a87838055377226c5a1<>res://.godot/imported/Crosshair_Line_Horizontal.png-78d7a30671b2c71332d4961aeefbcce6.ctex::
 Crosshair_Line_Vertical.png::CompressedTexture2D::1576168351040708376::1760664032::1760664077::1::::<><><>0<>0<>bbf105246ada50e2b9311d3dc07a2828<>res://.godot/imported/Crosshair_Line_Vertical.png-b05b49d6eaf3cd22e520185f2af816f1.ctex::
-::res://Assets/Generic Assets Folder/UI Assets/Textures/HUD/Game State/::1760664032
+::res://Assets/Generic Assets Folder/UI Assets/Textures/HUD/Game State/::1760664077
 HUD_GameState_Background.png::CompressedTexture2D::5998969897559827889::1760664032::1760664077::1::::<><><>0<>0<>6bd0a26c5eb90a844049ad79c968bb3b<>res://.godot/imported/HUD_GameState_Background.png-73c6af748ed53fcc08f80a2d03fbbc0b.ctex::
 HUD_GameState_VictoryIndicator_Green.png::CompressedTexture2D::4813267099474248041::1760664032::1760664077::1::::<><><>0<>0<>881aa9d6be84c654b03631b1213875c8<>res://.godot/imported/HUD_GameState_VictoryIndicator_Green.png-884f4628753270e82d951308103419d6.ctex::
 HUD_GameState_VictoryIndicator_Red.png::CompressedTexture2D::2156750916558813814::1760664032::1760664077::1::::<><><>0<>0<>17e846b1f0773e3c5e6cd9b6208114ab<>res://.godot/imported/HUD_GameState_VictoryIndicator_Red.png-bfad2be4212e061c48d06ed67df80f46.ctex::
-::res://Assets/Generic Assets Folder/UI Assets/Textures/HUD/Kill Display/::1760664032
+::res://Assets/Generic Assets Folder/UI Assets/Textures/HUD/Kill Display/::1760664077
 Example_KillDisplay_Weapon.png::CompressedTexture2D::4670755858841731939::1760664032::1760664077::1::::<><><>0<>0<>3d36ba6fa90bbdfcc25d7490a268976a<>res://.godot/imported/Example_KillDisplay_Weapon.png-b2dd682bef1875c3e5dd1a40cf815f95.ctex::
-::res://Assets/Generic Assets Folder/UI Assets/Textures/HUD/Minimap/::1760664032
+::res://Assets/Generic Assets Folder/UI Assets/Textures/HUD/Minimap/::1760664077
 HUD_Minimap_Background.png::CompressedTexture2D::5507070472285310841::1760664032::1760664077::1::::<><><>0<>0<>2a27f805068f2e5a7abf530a7807f673<>res://.godot/imported/HUD_Minimap_Background.png-a3705d2485adb3439dd28ee6164e9bc6.ctex::
 HUD_Minimap_Example.png::CompressedTexture2D::5250920862715415147::1760664032::1760664077::1::::<><><>0<>0<>537d7e5e109227ab4a82308c00fc0cf6<>res://.godot/imported/HUD_Minimap_Example.png-bcd92d4bc777f5ebfcf00db9998f3b80.ctex::
-::res://Assets/Generic Assets Folder/UI Assets/Textures/HUD/Minimap/Compass/::1760664032
+::res://Assets/Generic Assets Folder/UI Assets/Textures/HUD/Minimap/Compass/::1760664077
 HUD_Minimap_Compass_Separator_Large.png::CompressedTexture2D::2901889343515437241::1760664032::1760664077::1::::<><><>0<>0<>a58a5a0e2158fb72af25201855de6c6b<>res://.godot/imported/HUD_Minimap_Compass_Separator_Large.png-5fd6febd7c162deb695db23599a394d9.ctex::
 HUD_Minimap_Compass_Separator_Small.png::CompressedTexture2D::8578606721528052954::1760664032::1760664077::1::::<><><>0<>0<>59d63e9068495d79fd66447143483423<>res://.godot/imported/HUD_Minimap_Compass_Separator_Small.png-727ef8463358d83d7d7e0d131c075f3f.ctex::
-::res://Assets/Generic Assets Folder/UI Assets/Textures/HUD/Minimap/Pins/::1760664032
+::res://Assets/Generic Assets Folder/UI Assets/Textures/HUD/Minimap/Pins/::1760664077
 HUD_Minimap_Pin_Enemy.png::CompressedTexture2D::2493777594280792007::1760664032::1760664077::1::::<><><>0<>0<>d2df92c70ef9d9e3aaa66cbb5148009f<>res://.godot/imported/HUD_Minimap_Pin_Enemy.png-57a3735c840826e9552755625c0ec7fa.ctex::
 HUD_Minimap_Pin_Friendly.png::CompressedTexture2D::8515247371469949879::1760664032::1760664077::1::::<><><>0<>0<>d460f5f87e0868847da1d54c6807a83f<>res://.godot/imported/HUD_Minimap_Pin_Friendly.png-8780bcf77713748dbfeb2a79034e5eb3.ctex::
 HUD_Minimap_Pin_Player.png::CompressedTexture2D::1951089133263253985::1760664032::1760664077::1::::<><><>0<>0<>7dc47ce4d3678cd24fdd2e735ead86c5<>res://.godot/imported/HUD_Minimap_Pin_Player.png-edcc71f89283d1e2f5cf97387216af2e.ctex::
 HUD_Minimap_Pin_Teammate.png::CompressedTexture2D::5744306998680929807::1760664032::1760664077::1::::<><><>0<>0<>e41f27712e20f05e4d34715952dbfeb5<>res://.godot/imported/HUD_Minimap_Pin_Teammate.png-fd6ac8d2b7fa7ff6312ac92b93aa26aa.ctex::
-::res://Assets/Generic Assets Folder/UI Assets/Textures/HUD/Weapons Frame/::1760664032
+::res://Assets/Generic Assets Folder/UI Assets/Textures/HUD/Weapons Frame/::1760664078
 HUD_WeaponsFrame_Background.png::CompressedTexture2D::2378608617746212676::1760664032::1760664078::1::::<><><>0<>0<>c531e5fb2d7c32f28e0453e01ae52519<>res://.godot/imported/HUD_WeaponsFrame_Background.png-3abcc80d9e0b187fc0ded76369ce3fd5.ctex::
 HUD_WeaponsFrame_CircleGlow.png::CompressedTexture2D::1389162461946268597::1760664032::1760664078::1::::<><><>0<>0<>09c45c4cafd93f56525c7f8cce30882b<>res://.godot/imported/HUD_WeaponsFrame_CircleGlow.png-03fb477f7e70904a2f35b67d678b6b60.ctex::
 HUD_WeaponsFrame_Energy_Background.png::CompressedTexture2D::8778365732286552877::1760664032::1760664078::1::::<><><>0<>0<>26d6b02a808f195a04b4fc552a4c669b<>res://.godot/imported/HUD_WeaponsFrame_Energy_Background.png-df1b584a907156c4a759a155dabcf275.ctex::
 HUD_WeaponsFrame_Energy_Fill.png::CompressedTexture2D::2575870806489913616::1760664032::1760664078::1::::<><><>0<>0<>7d26e7b58c0085f63cd2c1787dfd535d<>res://.godot/imported/HUD_WeaponsFrame_Energy_Fill.png-5359b4b641765af15afde32cad70e406.ctex::
 HUD_WeaponsFrame_Health_Fill.png::CompressedTexture2D::1517076457169145236::1760664032::1760664078::1::::<><><>0<>0<>4460f68caad09312346194c2c685b76d<>res://.godot/imported/HUD_WeaponsFrame_Health_Fill.png-e9201edd7b7fd06813614299f501466b.ctex::
-::res://Assets/Generic Assets Folder/UI Assets/Textures/HUD/Weapons Frame/Fire Rates/::1760664032
+::res://Assets/Generic Assets Folder/UI Assets/Textures/HUD/Weapons Frame/Fire Rates/::1760664078
 HUD_WeaponsFrame_FireRate_Auto.png::CompressedTexture2D::2689045669771901917::1760664032::1760664077::1::::<><><>0<>0<>66d1b7ce2f6f831eba1b5c7469888a1d<>res://.godot/imported/HUD_WeaponsFrame_FireRate_Auto.png-2261c9837796ab67ab0896f5380b99d1.ctex::
 HUD_WeaponsFrame_FireRate_Burst.png::CompressedTexture2D::268244680867674338::1760664032::1760664077::1::::<><><>0<>0<>34fbdf3831fab7b75187d4081be413c4<>res://.godot/imported/HUD_WeaponsFrame_FireRate_Burst.png-733af385c9ea952d163a717388108bd0.ctex::
 HUD_WeaponsFrame_FireRate_Single.png::CompressedTexture2D::8463643287043459560::1760664032::1760664078::1::::<><><>0<>0<>bdcc9928bc01877f2fb982a111cd0211<>res://.godot/imported/HUD_WeaponsFrame_FireRate_Single.png-470093dcfe072818e4842f189036971b.ctex::
-::res://Assets/Generic Assets Folder/UI Assets/Textures/HUD/Weapons Frame/Weapon Box/::1760664032
+::res://Assets/Generic Assets Folder/UI Assets/Textures/HUD/Weapons Frame/Weapon Box/::1760664078
 HUD_WeaponsFrame_WeaponBox_Active_Pointer.png::CompressedTexture2D::2064064475979664039::1760664032::1760664078::1::::<><><>0<>0<>795a07e282bc38e8bdd97842590d1dd0<>res://.godot/imported/HUD_WeaponsFrame_WeaponBox_Active_Pointer.png-b6e097a51e56a00d300066756d7fc0fd.ctex::
 HUD_WeaponsFrame_WeaponBox_Borders.png::CompressedTexture2D::3832786293278480525::1760664032::1760664078::1::::<><><>0<>0<>fb3c80755447390c960c808cef2b3e97<>res://.godot/imported/HUD_WeaponsFrame_WeaponBox_Borders.png-5e8591b653b07aefce3cb379fb3224fa.ctex::
 HUD_WeaponsFrame_WeaponBox_BordersActive.png::CompressedTexture2D::2079453817349034171::1760664032::1760664078::1::::<><><>0<>0<>149c9e9c1b6f83294e506c0b8ef6201f<>res://.godot/imported/HUD_WeaponsFrame_WeaponBox_BordersActive.png-db02a105e5d40d61808a2223ff5ae70e.ctex::
-::res://Assets/Generic Assets Folder/UI Assets/Textures/HUD/Weapons Frame/Weapon Box/Examples/::1760664032
+::res://Assets/Generic Assets Folder/UI Assets/Textures/HUD/Weapons Frame/Weapon Box/Examples/::1760664078
 HUD_WeaponsFrame_Example_Granade.png::CompressedTexture2D::3226286245551347364::1760664032::1760664078::1::::<><><>0<>0<>280448325e5780b191da0f4f4f4fe503<>res://.godot/imported/HUD_WeaponsFrame_Example_Granade.png-68b78d0f278579e74274121073c70418.ctex::
 HUD_WeaponsFrame_Example_Pistol.png::CompressedTexture2D::8528380472053657657::1760664032::1760664078::1::::<><><>0<>0<>25cd7bfd5bb35e58c345f695c45e933a<>res://.godot/imported/HUD_WeaponsFrame_Example_Pistol.png-28d54bf3c69ff46c9e6e631526c51855.ctex::
-::res://Assets/Generic Assets Folder/UI Assets/Textures/Icons/::1760664032
+::res://Assets/Generic Assets Folder/UI Assets/Textures/Icons/::1760664078
 Icon_Arrow_Left.png::CompressedTexture2D::7749191554795104970::1760664032::1760664078::1::::<><><>0<>0<>92d030a37aab6cd8f08a0169ee591725<>res://.godot/imported/Icon_Arrow_Left.png-c7446d82cae91ef29e65079990e8ebed.ctex::
 Icon_Cogwheel.png::CompressedTexture2D::8455472535720712619::1760664032::1760664078::1::::<><><>0<>0<>56ce29369ec28ff7e61d3b16879d046d<>res://.godot/imported/Icon_Cogwheel.png-ca8a7d2d54d0638a14440d2e902346e5.ctex::
 Icon_Coins_Large.png::CompressedTexture2D::5871806646917936262::1760664032::1760664078::1::::<><><>0<>0<>eba92c90618672bd38e9086ef3575d69<>res://.godot/imported/Icon_Coins_Large.png-1f8fdd7dd36de00784061a86527520c5.ctex::
 Icon_Coin_Medium.png::CompressedTexture2D::1531961043651222961::1760664032::1760664078::1::::<><><>0<>0<>ad7959005992597f3b44b7b5aa603d9a<>res://.godot/imported/Icon_Coin_Medium.png-f5bf982918bd7f8bf1a0c05da0b7a35f.ctex::
-::res://Assets/Generic Assets Folder/UI Assets/Textures/Inputs/::1760664032
+::res://Assets/Generic Assets Folder/UI Assets/Textures/Inputs/::1760664078
 Input_Focus.png::CompressedTexture2D::6658240265307188387::1760664032::1760664078::1::::<><><>0<>0<>3e0a6f33656aae23517940282b284ba5<>res://.godot/imported/Input_Focus.png-9e232b6d9ab97cb4ea03358e312c10ea.ctex::
 Input_Icon_Password.png::CompressedTexture2D::7011015288176453720::1760664032::1760664078::1::::<><><>0<>0<>99e716bf6cce12a4f622f5e13ffa05c1<>res://.godot/imported/Input_Icon_Password.png-0de6244c6874098ca463d7db8a023aae.ctex::
 Input_Icon_Search.png::CompressedTexture2D::3598025992668308897::1760664032::1760664078::1::::<><><>0<>0<>4ccce3508ddeb67cacdf3b15bad35eec<>res://.godot/imported/Input_Icon_Search.png-4ce3432b00cbf15f614118425452db7a.ctex::
 Input_Icon_Username.png::CompressedTexture2D::6168759707528080778::1760664032::1760664078::1::::<><><>0<>0<>888ab1be4c905e2003f35eb34c548254<>res://.godot/imported/Input_Icon_Username.png-c33bbad5b1d5abb6217e6b2c7aa7b2cc.ctex::
 ::res://Assets/Generic Assets Folder/UI Assets/Textures/Lobby/::1760664032
-::res://Assets/Generic Assets Folder/UI Assets/Textures/Lobby/Avatar/::1760664032
+::res://Assets/Generic Assets Folder/UI Assets/Textures/Lobby/Avatar/::1760664078
 Lobby_Avatar_Overlay.png::CompressedTexture2D::1201049150276415889::1760664032::1760664078::1::::<><><>0<>0<>ca4c64e9d98973c75af0ca3cbff7c9ea<>res://.godot/imported/Lobby_Avatar_Overlay.png-4ff484917a42a5ffedca64105d35eedf.ctex::
-::res://Assets/Generic Assets Folder/UI Assets/Textures/Lobby/Browse Games/::1760664032
+::res://Assets/Generic Assets Folder/UI Assets/Textures/Lobby/Browse Games/::1760664078
 Lobby_Browse_Game_Border.png::CompressedTexture2D::7499283348293129445::1760664032::1760664078::1::::<><><>0<>0<>15102355ebdc6e43b572e9105e509d3b<>res://.godot/imported/Lobby_Browse_Game_Border.png-ec0bd91b3a77253e4062bf9c6a752bd6.ctex::
-::res://Assets/Generic Assets Folder/UI Assets/Textures/Lobby/Browse Games/Icons/::1760664032
+::res://Assets/Generic Assets Folder/UI Assets/Textures/Lobby/Browse Games/Icons/::1760664078
 Icon_Browse_Lock_1.png::CompressedTexture2D::6602814597782961302::1760664032::1760664078::1::::<><><>0<>0<>5972b2c525752192bc624dc5a5a638c4<>res://.godot/imported/Icon_Browse_Lock_1.png-e0a1e8f3e224a7c3a129bc800092f4b6.ctex::
 Icon_Browse_Lock_2.png::CompressedTexture2D::4683027119930248739::1760664032::1760664078::1::::<><><>0<>0<>75a8918b2b8097f6c79a4373fcbecba0<>res://.godot/imported/Icon_Browse_Lock_2.png-5e892f7c21fcfdc42ca3c7e060b2cd68.ctex::
 ::res://Assets/Generic Assets Folder/UI Assets/Textures/Lobby/Chat/::1760664032
-::res://Assets/Generic Assets Folder/UI Assets/Textures/Lobby/Chat/Icons/::1760664032
+::res://Assets/Generic Assets Folder/UI Assets/Textures/Lobby/Chat/Icons/::1760664078
 Chat_Icon_Chat.png::CompressedTexture2D::8004735633268470921::1760664032::1760664078::1::::<><><>0<>0<>945233e3f31060fb49947ea42eee1a70<>res://.godot/imported/Chat_Icon_Chat.png-6dd335f2cb08ed9af7cbacae573a1bef.ctex::
 Chat_Icon_Chat_Hover.png::CompressedTexture2D::1531806801528148605::1760664032::1760664078::1::::<><><>0<>0<>0be9b045c7488986f7e10453ff3b3ec2<>res://.godot/imported/Chat_Icon_Chat_Hover.png-aa307af2467e830fce01cb804d7dbe90.ctex::
 Chat_Icon_Chat_Press.png::CompressedTexture2D::8736681067077903237::1760664032::1760664078::1::::<><><>0<>0<>56a3e13c7a5a3c6026f6b324bad4336c<>res://.godot/imported/Chat_Icon_Chat_Press.png-8c3e287c1d293fcf246db34b04d6a0e0.ctex::
 Chat_Icon_Settings.png::CompressedTexture2D::1692778490807862612::1760664032::1760664078::1::::<><><>0<>0<>98ae4a5b6d7eaf9496dfdf3b50124757<>res://.godot/imported/Chat_Icon_Settings.png-978c1e2f359da3a2d5bf6418623cab27.ctex::
 Chat_Icon_Settings_Hover.png::CompressedTexture2D::6442800473362195894::1760664032::1760664078::1::::<><><>0<>0<>198c45ff8e40d25904ded203cacedf87<>res://.godot/imported/Chat_Icon_Settings_Hover.png-4ecb1ccd3c163641cd12fbe5fc845fe0.ctex::
 Chat_Icon_Settings_Press.png::CompressedTexture2D::5829460574999935082::1760664032::1760664078::1::::<><><>0<>0<>fabdcb549af07e256be50eeb724b9092<>res://.godot/imported/Chat_Icon_Settings_Press.png-63504ea3fe3f3ba04d6d236395e87074.ctex::
-::res://Assets/Generic Assets Folder/UI Assets/Textures/Lobby/Chat/Menu/::1760664032
+::res://Assets/Generic Assets Folder/UI Assets/Textures/Lobby/Chat/Menu/::1760664078
 Chat_Menu_Arrow.png::CompressedTexture2D::954293061216161086::1760664032::1760664078::1::::<><><>0<>0<>e81b37dacc1a6fd06e5531d0d5e43ebf<>res://.godot/imported/Chat_Menu_Arrow.png-f641ff7027a6dd1a54dc26fb4339b356.ctex::
 Chat_Menu_Checkbox.png::CompressedTexture2D::2604771196760472957::1760664032::1760664078::1::::<><><>0<>0<>f9ab6639ab3c68879e37700b330c17d1<>res://.godot/imported/Chat_Menu_Checkbox.png-70bdca609406a3c623991ad0ef30572a.ctex::
 Chat_Menu_Checkbox_Checkmark.png::CompressedTexture2D::8212024366008185361::1760664032::1760664078::1::::<><><>0<>0<>edc140e8b26ece62bc752357606ce685<>res://.godot/imported/Chat_Menu_Checkbox_Checkmark.png-603b3dcc30edcdd35ac1623bbd9755c3.ctex::
-::res://Assets/Generic Assets Folder/UI Assets/Textures/Lobby/Create Class/::1760664032
+::res://Assets/Generic Assets Folder/UI Assets/Textures/Lobby/Create Class/::1760664078
 Lobby_CreateClass_BigBox_Background.png::CompressedTexture2D::9178235966572794885::1760664032::1760664078::1::::<><><>0<>0<>fe242d00c7da3501084d1e17f436051c<>res://.godot/imported/Lobby_CreateClass_BigBox_Background.png-bfd3730eae286b05e9be95aeb88f6f14.ctex::
 Lobby_CreateClass_Pagination_Background.png::CompressedTexture2D::1480811065724515262::1760664032::1760664078::1::::<><><>0<>0<>2e0f6c69fd36c9a1942fe9703b0d3480<>res://.godot/imported/Lobby_CreateClass_Pagination_Background.png-c7326981bbe08386c0f47389f5f6eeab.ctex::
 Lobby_CreateClass_Select_Checkmark.png::CompressedTexture2D::2880844537126519903::1760664032::1760664078::1::::<><><>0<>0<>f1432c79fa5d0d35be7b28a25e4a4ed4<>res://.godot/imported/Lobby_CreateClass_Select_Checkmark.png-5e206c6a5187010ce9f3a0e3d04b6ff4.ctex::
 Lobby_CreateClass_SmallBox_Background.png::CompressedTexture2D::5850400078034375531::1760664032::1760664078::1::::<><><>0<>0<>ea2e762213b7e53231b68c1e5d55e119<>res://.godot/imported/Lobby_CreateClass_SmallBox_Background.png-4d52c38ea7f7909542604046ca94db04.ctex::
 Lobby_CreateClass_WeaponSelect_Hover.png::CompressedTexture2D::4546997581840564992::1760664032::1760664078::1::::<><><>0<>0<>c8cd33a6f796b55f2a9adad2029ca6be<>res://.godot/imported/Lobby_CreateClass_WeaponSelect_Hover.png-b68bd7a49f06997f9ab49290045d02d8.ctex::
-::res://Assets/Generic Assets Folder/UI Assets/Textures/Lobby/Create Class/Examples/::1760664032
+::res://Assets/Generic Assets Folder/UI Assets/Textures/Lobby/Create Class/Examples/::1760664078
 Lobby_CreateClass_Example_Attachment1.png::CompressedTexture2D::5311119148812071682::1760664032::1760664078::1::::<><><>0<>0<>bcee24c334cea73affb963c49dd477ea<>res://.godot/imported/Lobby_CreateClass_Example_Attachment1.png-f34e2b0b4d9ca59324ff44583341b223.ctex::
 Lobby_CreateClass_Example_Attachment2.png::CompressedTexture2D::7228732575440272902::1760664032::1760664078::1::::<><><>0<>0<>6624b7a7b11e357bd701ad5ed46d68b4<>res://.godot/imported/Lobby_CreateClass_Example_Attachment2.png-a046563de7679941a4f0897e7b63c330.ctex::
 Lobby_CreateClass_Example_Granade.png::CompressedTexture2D::4982986634698427477::1760664032::1760664078::1::::<><><>0<>0<>a184258f42df4dddb3b029ee3e3790fc<>res://.godot/imported/Lobby_CreateClass_Example_Granade.png-8de307a9626e6636d1916be210b25738.ctex::
 Lobby_CreateClass_Example_Primary.png::CompressedTexture2D::2490261182214764500::1760664032::1760664078::1::::<><><>0<>0<>e0ab689a3d442756a98a0fe2594be20c<>res://.godot/imported/Lobby_CreateClass_Example_Primary.png-80dd5e495d8640858808af0ccaf505d4.ctex::
 Lobby_CreateClass_Example_Secondary.png::CompressedTexture2D::1653868110020855339::1760664032::1760664078::1::::<><><>0<>0<>715e5b64678503cdef1419e04c85e50c<>res://.godot/imported/Lobby_CreateClass_Example_Secondary.png-d0a24281506f48a0b0f8f5510a628f09.ctex::
 Lobby_CreateClass_Example_WeaponSelect_Icon.png::CompressedTexture2D::5457198319389252372::1760664032::1760664078::1::::<><><>0<>0<>fc031474aa97aa47089992ec1a9e444f<>res://.godot/imported/Lobby_CreateClass_Example_WeaponSelect_Icon.png-37d0a934e9947fc90acc901eca0193d2.ctex::
-::res://Assets/Generic Assets Folder/UI Assets/Textures/Lobby/Find Match/::1760664032
+::res://Assets/Generic Assets Folder/UI Assets/Textures/Lobby/Find Match/::1760664078
 Lobby_FindMatch_ModeIcon_Example.png::CompressedTexture2D::7064422289120535466::1760664032::1760664078::1::::<><><>0<>0<>771c1616fa4940fdc201e76d8d3f5362<>res://.godot/imported/Lobby_FindMatch_ModeIcon_Example.png-ed533f60e592bcff23c5d34a699cd732.ctex::
 Lobby_FindMatch_ModeIcon_Frame.png::CompressedTexture2D::5891976082853880785::1760664032::1760664078::1::::<><><>0<>0<>9c402665d1d7730c980b533189e15e25<>res://.godot/imported/Lobby_FindMatch_ModeIcon_Frame.png-0a4961726b181c3fc0c4be440733e90b.ctex::
-::res://Assets/Generic Assets Folder/UI Assets/Textures/Lobby/Friends/::1760664032
+::res://Assets/Generic Assets Folder/UI Assets/Textures/Lobby/Friends/::1760664078
 Lobby_Friends_Status_Away.png::CompressedTexture2D::1807071448440432791::1760664032::1760664078::1::::<><><>0<>0<>bfda8b446237da28622874d862866285<>res://.godot/imported/Lobby_Friends_Status_Away.png-dda21673e605d579adba022abe6c9d41.ctex::
 Lobby_Friends_Status_Busy.png::CompressedTexture2D::6644219429781726456::1760664032::1760664078::1::::<><><>0<>0<>e3db0e497ca129c24deead94a1b41bce<>res://.godot/imported/Lobby_Friends_Status_Busy.png-4b338500886129ec649b7924351303de.ctex::
 Lobby_Friends_Status_Offline.png::CompressedTexture2D::5841999874141710330::1760664032::1760664078::1::::<><><>0<>0<>d80367066997f474ff37a9c5caa07f2d<>res://.godot/imported/Lobby_Friends_Status_Offline.png-7176ecad3a254b9dd7d0145f4a91d187.ctex::
 Lobby_Friends_Status_Online.png::CompressedTexture2D::6958768390170992783::1760664032::1760664078::1::::<><><>0<>0<>0d413daf059134bce5d1cd03ce785b3e<>res://.godot/imported/Lobby_Friends_Status_Online.png-a6fe8811af59d2c8c6d391739c61befd.ctex::
-::res://Assets/Generic Assets Folder/UI Assets/Textures/Lobby/Party/::1760664032
+::res://Assets/Generic Assets Folder/UI Assets/Textures/Lobby/Party/::1760664078
 Party_Header_Background.png::CompressedTexture2D::6991532503610493412::1760664032::1760664078::1::::<><><>0<>0<>9c06615c42ea6f62661d28fc15d5cab2<>res://.godot/imported/Party_Header_Background.png-99ccd93f9c0a9931c121dc3c3f6fb111.ctex::
 Party_Member_Background.png::CompressedTexture2D::7905093272294069145::1760664032::1760664078::1::::<><><>0<>0<>9cfb1a8564cc9ff7192977351a13feb0<>res://.godot/imported/Party_Member_Background.png-aefd03c3c47c0cd23c43d37daf2b5bb8.ctex::
-::res://Assets/Generic Assets Folder/UI Assets/Textures/Lobby/Party/Icons/::1760664032
+::res://Assets/Generic Assets Folder/UI Assets/Textures/Lobby/Party/Icons/::1760664078
 Party_Member_Icon_Crown.png::CompressedTexture2D::2553154840943383119::1760664032::1760664078::1::::<><><>0<>0<>c220fcc43260201133c5e88e76693453<>res://.godot/imported/Party_Member_Icon_Crown.png-b0c100175ad284d7ac86cc7af418be67.ctex::
 Party_Member_Icon_User.png::CompressedTexture2D::9053800881175806523::1760664032::1760664078::1::::<><><>0<>0<>655d95e7633680eae620cea6d4fd3162<>res://.godot/imported/Party_Member_Icon_User.png-af5be30a37a6dfe929b936d187643d19.ctex::
-::res://Assets/Generic Assets Folder/UI Assets/Textures/Lobby/Party/Ranks/::1760664032
+::res://Assets/Generic Assets Folder/UI Assets/Textures/Lobby/Party/Ranks/::1760664078
 Party_Rank_Example.png::CompressedTexture2D::8027215743858643041::1760664032::1760664078::1::::<><><>0<>0<>aee7a86348b3152cd17757ce5b136a28<>res://.godot/imported/Party_Rank_Example.png-4c8785dae9176d909a8e29a32036c5ef.ctex::
-::res://Assets/Generic Assets Folder/UI Assets/Textures/Lobby/Store/::1760664032
+::res://Assets/Generic Assets Folder/UI Assets/Textures/Lobby/Store/::1760664078
 Lobby_Store_GoldenBorders.png::CompressedTexture2D::8143648950245245448::1760664032::1760664078::1::::<><><>0<>0<>3f387b399f92e01114c91d4c1fb7de9f<>res://.godot/imported/Lobby_Store_GoldenBorders.png-39bf57d16107102d5b6bdbc105da90ef.ctex::
 Lobby_Store_Item_Background.png::CompressedTexture2D::5096652319728772634::1760664032::1760664078::1::::<><><>0<>0<>72c8f72c04282bcf00088fd428217c03<>res://.godot/imported/Lobby_Store_Item_Background.png-2a386e9ceb9ad6c163305a10f5c6f7ce.ctex::
-::res://Assets/Generic Assets Folder/UI Assets/Textures/Miscellaneous/::1760664032
+::res://Assets/Generic Assets Folder/UI Assets/Textures/Miscellaneous/::1760664078
 Box_Background.png::CompressedTexture2D::1876469334365250738::1760664032::1760664078::1::::<><><>0<>0<>8acde1366328f86191334b9f141a43c9<>res://.godot/imported/Box_Background.png-8a53f7534b7e3148aedeb47cdb28c459.ctex::
 Box_Hover.png::CompressedTexture2D::1037424984666860172::1760664032::1760664078::1::::<><><>0<>0<>1fddb417a91b3a3e40f4b8e23ffc8d57<>res://.godot/imported/Box_Hover.png-aa3a9da1dd63ac8afb125139acf34717.ctex::
 Box_Hover_2.png::CompressedTexture2D::6711240902202128791::1760664032::1760664078::1::::<><><>0<>0<>52a3e986272ed325f9630392ec2c50ad<>res://.godot/imported/Box_Hover_2.png-fd48e827fefb39cba8820a72bdfbbaab.ctex::
@@ -701,13 +701,13 @@ SelectField_Arrow_Down.png::CompressedTexture2D::3722326398389295287::1760664032
 Toggle_Background.png::CompressedTexture2D::7109050064992768896::1760664032::1760664078::1::::<><><>0<>0<>1d044e86a4d5aa86e99f04dd06064f37<>res://.godot/imported/Toggle_Background.png-c299cbb16385f1e94efd4bee2d9ff4e9.ctex::
 Tooltip_AnchorIndicator.png::CompressedTexture2D::3052118909563990744::1760664032::1760664078::1::::<><><>0<>0<>f737dbdb466947143a08b1a20346caac<>res://.godot/imported/Tooltip_AnchorIndicator.png-49c3655e8c5dec0bfb873bfae9774c6a.ctex::
 White.png::CompressedTexture2D::589144873438919567::1760664032::1760664078::1::::<><><>0<>0<>a8ac6ee81d9afa8b5ed9474d59e984b3<>res://.godot/imported/White.png-326e4f09dc5d16b35353865401d603b6.ctex::
-::res://Assets/Generic Assets Folder/UI Assets/Textures/Tabs/::1760664032
+::res://Assets/Generic Assets Folder/UI Assets/Textures/Tabs/::1760664078
 Tab_Active_Border.png::CompressedTexture2D::3817825265044977748::1760664032::1760664078::1::::<><><>0<>0<>906b674a0190c1a53105d7f1a24c5dce<>res://.godot/imported/Tab_Active_Border.png-4cc5499bad44231e243a28b56644e09a.ctex::
 Tab_CircleFrame.png::CompressedTexture2D::1643105860959967952::1760664032::1760664078::1::::<><><>0<>0<>e568cb1409d60614fa0cc8d32912e3f1<>res://.godot/imported/Tab_CircleFrame.png-52f4a828e7fbebc9d257a02608ea98fc.ctex::
 Tab_Hover.png::CompressedTexture2D::1715740363750104405::1760664032::1760664078::1::::<><><>0<>0<>86cf711421f1b9b6a19c632bfb38acf2<>res://.godot/imported/Tab_Hover.png-8440d662f4a015f7bb307649d2cc80b2.ctex::
 Tab_Hover_Gradient.png::CompressedTexture2D::4353296031698023168::1760664032::1760664078::1::::<><><>0<>0<>8c5e86499bad1ed17c349dbaf63f63c4<>res://.godot/imported/Tab_Hover_Gradient.png-894367d323ac4f6a5c936dd9f577fc2d.ctex::
 ::res://Assets/Sound/::1760551938
-MenuMusic1.wav::AudioStreamWAV::6473008112434623696::1760551937::1760551938::1::::<><><>0<>0<>e034644faf42f413f159d9e888bf9240<>res://.godot/imported/MenuMusic1.wav-214f91f453edb47d8cc77bfd1f2a3069.sample::
+MenuMusic1.wav::AudioStreamWAV::6473008112434623696::1760551937::1760669348::1::::<><><>0<>0<>3f343f23c9d436a82c9560546bac2ed4<>res://.godot/imported/MenuMusic1.wav-214f91f453edb47d8cc77bfd1f2a3069.sample::
 ::res://Assets/textures/::1760549533
 Image_0.png::CompressedTexture2D::8737495246934349492::1760549515::1760549533::1::::<><><>0<>0<>a499bc18097023d88eeb963a8743ba32<>res://.godot/imported/Image_0.png-3e7e93cb086ec239788f58f524366802.ctex::
 Image_1.png::CompressedTexture2D::3072096679039779753::1760549515::1760549533::1::::<><><>0<>0<>1a48d60828828ad2007a29d7d9375c05<>res://.godot/imported/Image_1.png-7f8286737e57d67d339077f2dc21be1d.ctex::
@@ -743,7 +743,7 @@ player_movement.gd::GDScript::9191880893314535135::1760664032::0::1::::<>Charact
 ::res://Levels/In Game UI/::1760664032
 ui.gd::GDScript::624469404355134328::1760664032::0::1::::<>Control<><>0<>0<><>::
 ui.tscn::PackedScene::6467146495070668854::1760664032::0::1::::<><><>0<>0<><>::uid://85hlo5p015w7::::res://Assets/Generic Assets Folder/UI Assets/Textures/HUD/Weapons Frame/HUD_WeaponsFrame_Background.png<>uid://i5q6jl6qwtvs::::res://Levels/In Game UI/ui.gd<>uid://vu5a654ppxi7::::res://Assets/Generic Assets Folder/UI Assets/Textures/HUD/Weapons Frame/HUD_WeaponsFrame_Health_Fill.png
-::res://Levels/Test Level/::1760664032
+::res://Levels/Test Level/::1760668393
 camera_controller.gd::GDScript::239303107803521591::1760549256::0::1::::<>Node3D<><>0<>0<><>::
 enemy_controller.gd::GDScript::4846462003087080152::1760664032::0::1::::<>Node3D<><>0<>0<><>::
-TestScene.tscn::PackedScene::2099358371287320613::1760664032::0::1::::<><><>0<>0<><>::uid://cbbwryn4ijg2c::::res://Levels/Test Level/enemy_controller.gd<>uid://dvmbk3cjb8o4::::res://Entities/Player Character/player_character.tscn<>uid://dn6j1bakl81h::::res://Levels/Test Level/camera_controller.gd<>uid://th650eepkt0n::::res://Entities/Enemy/enemy_character.tscn<>uid://drp0rgb2de28p::::res://Entities/Enemy/Enemy Materials/robot1.tres<>uid://b23rrl7s4686i::::res://Entities/Enemy/Enemy Materials/BusinessMan1.tres<>uid://dx8h0a1xfn42u::::res://Entities/Enemy/Enemy Materials/robot2.tres<>uid://mgs321vvpbjg::::res://Entities/Enemy/Enemy Materials/BusinessMan2.tres<>uid://cduxdwkr35ey1::::res://Entities/Enemy/Enemy Materials/Cyborg.tres<>uid://djglmn17roqth::::res://Entities/Enemy/Enemy Materials/Military1.tres<>uid://hfvpmyw0hbba::::res://Entities/Enemy/Enemy Materials/Military2.tres<>uid://dxro35igr82u::::res://Entities/Enemy/Enemy Materials/Military3.tres<>uid://twvfo0sriwn7::::res://Entities/Enemy/Enemy Materials/Military4.tres<>uid://cow45n3m0ak68::::res://Entities/Enemy/Enemy Materials/Robot3.tres<>uid://cyey7tl1exxko::::res://Levels/In Game UI/ui.tscn
+TestScene.tscn::PackedScene::2099358371287320613::1760668393::0::1::::<><><>0<>0<><>::uid://cbbwryn4ijg2c::::res://Levels/Test Level/enemy_controller.gd<>uid://dvmbk3cjb8o4::::res://Entities/Player Character/player_character.tscn<>uid://dn6j1bakl81h::::res://Levels/Test Level/camera_controller.gd<>uid://th650eepkt0n::::res://Entities/Enemy/enemy_character.tscn<>uid://drp0rgb2de28p::::res://Entities/Enemy/Enemy Materials/robot1.tres<>uid://b23rrl7s4686i::::res://Entities/Enemy/Enemy Materials/BusinessMan1.tres<>uid://dx8h0a1xfn42u::::res://Entities/Enemy/Enemy Materials/robot2.tres<>uid://mgs321vvpbjg::::res://Entities/Enemy/Enemy Materials/BusinessMan2.tres<>uid://cduxdwkr35ey1::::res://Entities/Enemy/Enemy Materials/Cyborg.tres<>uid://djglmn17roqth::::res://Entities/Enemy/Enemy Materials/Military1.tres<>uid://hfvpmyw0hbba::::res://Entities/Enemy/Enemy Materials/Military2.tres<>uid://dxro35igr82u::::res://Entities/Enemy/Enemy Materials/Military3.tres<>uid://twvfo0sriwn7::::res://Entities/Enemy/Enemy Materials/Military4.tres<>uid://cow45n3m0ak68::::res://Entities/Enemy/Enemy Materials/Robot3.tres<>uid://cyey7tl1exxko::::res://Levels/In Game UI/ui.tscn

@@ -177,6 +177,11 @@ theme_override_styles/pressed = SubResource("StyleBoxFlat_8qtwp")
 theme_override_styles/hover = SubResource("StyleBoxFlat_nlkkf")
 text = "Quit"
 
+[node name="QuitConfirm" type="ConfirmationDialog" parent="."]
+oversampling_override = 1.0
+ok_button_text = "Quit Game"
+dialog_text = "Are You Sure?"
+
 [node name="Title" type="Label" parent="."]
 layout_mode = 1
 anchors_preset = 8
