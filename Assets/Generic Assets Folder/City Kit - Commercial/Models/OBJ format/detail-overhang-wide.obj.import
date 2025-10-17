@@ -1,0 +1,25 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://cxyri7owl05km"
+path="res://.godot/imported/detail-overhang-wide.obj-5c3cddaf628f2ca2c9e0c83aa6412bab.mesh"
+
+[deps]
+
+files=["res://.godot/imported/detail-overhang-wide.obj-5c3cddaf628f2ca2c9e0c83aa6412bab.mesh"]
+
+source_file="res://Assets/Generic Assets Folder/City Kit - Commercial/Models/OBJ format/detail-overhang-wide.obj"
+dest_files=["res://.godot/imported/detail-overhang-wide.obj-5c3cddaf628f2ca2c9e0c83aa6412bab.mesh", "res://.godot/imported/detail-overhang-wide.obj-5c3cddaf628f2ca2c9e0c83aa6412bab.mesh"]
+
+[params]
+
+generate_tangents=true
+generate_lods=true
+generate_shadow_mesh=true
+generate_lightmap_uv2=false
+generate_lightmap_uv2_texel_size=0.2
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+force_disable_mesh_compression=false

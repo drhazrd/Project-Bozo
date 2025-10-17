@@ -1,0 +1,25 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://guilsmoq2via"
+path="res://.godot/imported/loungeSofaOttoman.obj-0f56f5b0090c21d953ccf6e3faf64b8a.mesh"
+
+[deps]
+
+files=["res://.godot/imported/loungeSofaOttoman.obj-0f56f5b0090c21d953ccf6e3faf64b8a.mesh"]
+
+source_file="res://Assets/Generic Assets Folder/Furniture Kit/Models/OBJ format/loungeSofaOttoman.obj"
+dest_files=["res://.godot/imported/loungeSofaOttoman.obj-0f56f5b0090c21d953ccf6e3faf64b8a.mesh", "res://.godot/imported/loungeSofaOttoman.obj-0f56f5b0090c21d953ccf6e3faf64b8a.mesh"]
+
+[params]
+
+generate_tangents=true
+generate_lods=true
+generate_shadow_mesh=true
+generate_lightmap_uv2=false
+generate_lightmap_uv2_texel_size=0.2
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+force_disable_mesh_compression=false

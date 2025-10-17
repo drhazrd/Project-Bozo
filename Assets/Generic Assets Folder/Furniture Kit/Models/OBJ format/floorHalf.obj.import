@@ -1,0 +1,25 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://b1cyxi1jwq6aq"
+path="res://.godot/imported/floorHalf.obj-0863186c07529f6995ef3461be1b4bca.mesh"
+
+[deps]
+
+files=["res://.godot/imported/floorHalf.obj-0863186c07529f6995ef3461be1b4bca.mesh"]
+
+source_file="res://Assets/Generic Assets Folder/Furniture Kit/Models/OBJ format/floorHalf.obj"
+dest_files=["res://.godot/imported/floorHalf.obj-0863186c07529f6995ef3461be1b4bca.mesh", "res://.godot/imported/floorHalf.obj-0863186c07529f6995ef3461be1b4bca.mesh"]
+
+[params]
+
+generate_tangents=true
+generate_lods=true
+generate_shadow_mesh=true
+generate_lightmap_uv2=false
+generate_lightmap_uv2_texel_size=0.2
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+force_disable_mesh_compression=false

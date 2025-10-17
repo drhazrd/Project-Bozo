@@ -1,0 +1,25 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://cb1hai1n2x1hu"
+path="res://.godot/imported/wall-corner-column-small-bottom.obj-3c6899189f5b3d87cec323ea9877b9a1.mesh"
+
+[deps]
+
+files=["res://.godot/imported/wall-corner-column-small-bottom.obj-3c6899189f5b3d87cec323ea9877b9a1.mesh"]
+
+source_file="res://Assets/Generic Assets Folder/Building Kit/Models/OBJ format/wall-corner-column-small-bottom.obj"
+dest_files=["res://.godot/imported/wall-corner-column-small-bottom.obj-3c6899189f5b3d87cec323ea9877b9a1.mesh", "res://.godot/imported/wall-corner-column-small-bottom.obj-3c6899189f5b3d87cec323ea9877b9a1.mesh"]
+
+[params]
+
+generate_tangents=true
+generate_lods=true
+generate_shadow_mesh=true
+generate_lightmap_uv2=false
+generate_lightmap_uv2_texel_size=0.2
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+force_disable_mesh_compression=false

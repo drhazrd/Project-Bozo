@@ -1,0 +1,25 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://b5jxuouxd68n6"
+path="res://.godot/imported/path-stones-messy.obj-1b55da9a6b178785041f2a0959ee3503.mesh"
+
+[deps]
+
+files=["res://.godot/imported/path-stones-messy.obj-1b55da9a6b178785041f2a0959ee3503.mesh"]
+
+source_file="res://Assets/Generic Assets Folder/City Kit - Suburban/Models/OBJ format/path-stones-messy.obj"
+dest_files=["res://.godot/imported/path-stones-messy.obj-1b55da9a6b178785041f2a0959ee3503.mesh", "res://.godot/imported/path-stones-messy.obj-1b55da9a6b178785041f2a0959ee3503.mesh"]
+
+[params]
+
+generate_tangents=true
+generate_lods=true
+generate_shadow_mesh=true
+generate_lightmap_uv2=false
+generate_lightmap_uv2_texel_size=0.2
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+force_disable_mesh_compression=false

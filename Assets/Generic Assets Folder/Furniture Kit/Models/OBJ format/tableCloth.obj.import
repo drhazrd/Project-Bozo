@@ -1,0 +1,25 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://c8ccwd2drmaif"
+path="res://.godot/imported/tableCloth.obj-b2f040b77334f528ec6737eb1d3188cc.mesh"
+
+[deps]
+
+files=["res://.godot/imported/tableCloth.obj-b2f040b77334f528ec6737eb1d3188cc.mesh"]
+
+source_file="res://Assets/Generic Assets Folder/Furniture Kit/Models/OBJ format/tableCloth.obj"
+dest_files=["res://.godot/imported/tableCloth.obj-b2f040b77334f528ec6737eb1d3188cc.mesh", "res://.godot/imported/tableCloth.obj-b2f040b77334f528ec6737eb1d3188cc.mesh"]
+
+[params]
+
+generate_tangents=true
+generate_lods=true
+generate_shadow_mesh=true
+generate_lightmap_uv2=false
+generate_lightmap_uv2_texel_size=0.2
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+force_disable_mesh_compression=false

@@ -1,0 +1,25 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://dm1pqvrkt0mrv"
+path="res://.godot/imported/door-rotate-round-d.obj-4da3c8687c9b4796db69ed6977ba8118.mesh"
+
+[deps]
+
+files=["res://.godot/imported/door-rotate-round-d.obj-4da3c8687c9b4796db69ed6977ba8118.mesh"]
+
+source_file="res://Assets/Generic Assets Folder/Building Kit/Models/OBJ format/door-rotate-round-d.obj"
+dest_files=["res://.godot/imported/door-rotate-round-d.obj-4da3c8687c9b4796db69ed6977ba8118.mesh", "res://.godot/imported/door-rotate-round-d.obj-4da3c8687c9b4796db69ed6977ba8118.mesh"]
+
+[params]
+
+generate_tangents=true
+generate_lods=true
+generate_shadow_mesh=true
+generate_lightmap_uv2=false
+generate_lightmap_uv2_texel_size=0.2
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+force_disable_mesh_compression=false
