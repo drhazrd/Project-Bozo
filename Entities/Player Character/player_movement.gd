@@ -2,7 +2,8 @@ extends CharacterBody3D
 
 @onready var ap: AnimationPlayer = $AnimationPlayer
 @onready var camera_3d: Camera3D = $"../Camera Controller/Camera3D"
-
+var isAttacking = false
+@onready var attackCooldown = 0.25
 
 const SPEED = 10.0
 const JUMP_VELOCITY = 4.5
@@ -12,10 +13,13 @@ func _physics_process(delta: float) -> void:
 	if not is_on_floor():
 		velocity += get_gravity() * delta
 
-	if Input.is_action_just_pressed("ui_accept") and is_on_floor():
+	if Input.is_action_just_pressed("jump") and is_on_floor():
 		velocity.y = JUMP_VELOCITY
+	if Input.is_action_just_pressed("attackbutton") and canAttack():
+		Attack()
+		
 
-	var input_dir := Input.get_vector("ui_left", "ui_right", "ui_up", "ui_down")
+	var input_dir := Input.get_vector("left", "right", "up", "down")
 	var direction := (camera_3d.transform.basis * Vector3(input_dir.x, 0, input_dir.y)).normalized()
 
 	if direction.length() > 0:
@@ -29,7 +33,18 @@ func _physics_process(delta: float) -> void:
 
 	move_and_slide()
 	animation_handler()
-
+func Attack():
+	isAttacking = true
+	ap.play("attack/Root|Attack")
+	print("Attack!")
+	await get_tree().create_timer(attackCooldown).timeout
+	isAttacking = false
+	
+func canAttack():
+	var attackStatus:bool = !isAttacking
+	
+	return attackStatus
+	
 func animation_handler():
 	if is_on_floor() and velocity == Vector3.ZERO:
 		ap.play("idle/Root|Idle")

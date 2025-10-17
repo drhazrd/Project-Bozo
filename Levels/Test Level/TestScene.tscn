@@ -44,10 +44,11 @@ size = Vector3(25, 0.1, 25)
 [node name="Enemy Controller" type="Node3D" parent="."]
 script = ExtResource("1_agua6")
 enemy_scene = ExtResource("2_ud7gw")
-spawn_interval = 0.1
+spawn_interval = 10.0
 enemy_materials = Array[Material]([ExtResource("3_oeq5l"), ExtResource("4_rhst6"), ExtResource("5_k78pu"), ExtResource("6_tdyi7"), ExtResource("7_1lfut"), ExtResource("8_urirw"), ExtResource("9_tdohw"), ExtResource("3_42213"), ExtResource("4_drbpy"), ExtResource("12_tu701")])
 
 [node name="SpawnTimer" type="Timer" parent="Enemy Controller"]
+wait_time = 48.769999999999996
 
 [node name="Player Character" parent="." instance=ExtResource("1_q78tl")]
 
