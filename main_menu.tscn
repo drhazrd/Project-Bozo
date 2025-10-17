@@ -1,4 +1,4 @@
-[gd_scene load_steps=16 format=3 uid="uid://brxx7hljhv2yv"]
+[gd_scene load_steps=17 format=3 uid="uid://brxx7hljhv2yv"]
 
 [ext_resource type="FontFile" uid="uid://bhji2feoaevbb" path="res://Assets/Fonts/Ov3Read Bold.ttf" id="1_06t4h"]
 [ext_resource type="Script" uid="uid://c2hni8w2a7bgs" path="res://main_menu.gd" id="1_7vrkn"]
@@ -6,8 +6,8 @@
 [ext_resource type="AudioStream" uid="uid://cyhtq6tg8iruu" path="res://Assets/Sound/MenuMusic1.wav" id="4_jix8l"]
 [ext_resource type="Script" uid="uid://deerhervrb1yd" path="res://option_sliders.gd" id="5_glbon"]
 
-[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_7vrkn"]
-bg_color = Color(0.028679255, 0.10713103, 0.12341841, 0.14509805)
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_dy7ct"]
+bg_color = Color(0.30185452, 0.5568091, 0.41172662, 1)
 
 [sub_resource type="Theme" id="Theme_rhts7"]
 
@@ -99,6 +99,9 @@ grow_end = 41.0
 thickness = 100
 vertical = true
 
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_7vrkn"]
+bg_color = Color(0.028679255, 0.10713103, 0.12341841, 0.14509805)
+
 [node name="MainMenu" type="Control"]
 layout_mode = 3
 anchors_preset = 15
@@ -108,14 +111,14 @@ grow_horizontal = 2
 grow_vertical = 2
 script = ExtResource("1_7vrkn")
 
-[node name="Panel" type="Panel" parent="."]
+[node name="Background" type="Panel" parent="."]
 layout_mode = 0
 offset_left = -178.0
 offset_top = -38.999996
 offset_right = -138.0
 offset_bottom = 1.0000038
 scale = Vector2(36.145184, 18.639128)
-theme_override_styles/panel = SubResource("StyleBoxFlat_7vrkn")
+theme_override_styles/panel = SubResource("StyleBoxFlat_dy7ct")
 
 [node name="VBoxContainer1" type="VBoxContainer" parent="."]
 layout_mode = 1
