@@ -1,15 +1,15 @@
-ConfirmationDialog
+AnimationTree
+TextureRect
 Camera3D
+XRCamera3D
+SubViewport
+MeshInstance2D
+Control
+MeshInstance3D
+Container
+ConfirmationDialog
 Node3D
 Label
-Control
-TextureRect
-Container
 HSlider
 AudioStreamPlayer      - Matches the "sound" keyword.
 Panel
-BoneAttachment3D
-CollisionShape3D
-CharacterBody3D
-CharacterBody2D
-AnimationPlayer

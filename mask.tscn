@@ -1,0 +1,10 @@
+[gd_scene load_steps=3 format=3 uid="uid://dlwbprec67xx8"]
+
+[ext_resource type="PackedScene" uid="uid://d1bw3daj84jjk" path="res://Assets/Mask.blend" id="1_b0qmb"]
+[ext_resource type="ArrayMesh" uid="uid://dskci6oik5o7q" path="res://MaskMesh.tres" id="2_oilhy"]
+
+[node name="Mask" instance=ExtResource("1_b0qmb")]
+
+[node name="sphere_selection_003" parent="." index="0"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.03, 0, 0)
+mesh = ExtResource("2_oilhy")
