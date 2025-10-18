@@ -1,1 +1,9 @@
 res://default_bus_layout.tres
+res://factory.tscn
+res://mask.tscn
+res://Entities/Player Character/player_character.tscn
+res://Levels/In Game UI/ui.tscn
+res://maskviewport.gd
+res://MaskMesh.tres
+res://Entities/Player Character/player_movement.gd
+res://addons/nojoule-energy-shield/shield_noise.tres

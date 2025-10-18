@@ -37,6 +37,7 @@ func Attack():
 	isAttacking = true
 	ap.play("attack/Root|Attack")
 	print("Attack!")
+	await ap.animation_finished
 	await get_tree().create_timer(attackCooldown).timeout
 	isAttacking = false
 	
@@ -46,7 +47,7 @@ func canAttack():
 	return attackStatus
 	
 func animation_handler():
-	if is_on_floor() and velocity == Vector3.ZERO:
+	if is_on_floor() and velocity == Vector3.ZERO and isAttacking == false:
 		ap.play("idle/Root|Idle")
 	elif not is_on_floor():
 		ap.play("jump/Root|Jump")
