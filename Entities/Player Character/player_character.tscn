@@ -1,7 +1,7 @@
 [gd_scene load_steps=30 format=4 uid="uid://dvmbk3cjb8o4"]
 
 [ext_resource type="Script" uid="uid://d37u62jqkagsd" path="res://Entities/Player Character/player_movement.gd" id="1_ckx7f"]
-[ext_resource type="PackedScene" path="res://mask.tscn" id="2_osdie"]
+[ext_resource type="PackedScene" uid="uid://dlwbprec67xx8" path="res://Entities/Entity Components/mask.tscn" id="2_osdie"]
 [ext_resource type="AnimationLibrary" uid="uid://dpw10pdkgncjl" path="res://Assets/Generic Assets Folder/Animated Characters Bundle/Animations/attack.fbx" id="2_uopxx"]
 [ext_resource type="Texture2D" uid="uid://cylbh3oqfble7" path="res://Assets/Character Skins/businessMaleA.png" id="3_0yauc"]
 [ext_resource type="AnimationLibrary" uid="uid://kx50k2pp5dji" path="res://Assets/Generic Assets Folder/Animated Characters Bundle/Animations/crouch.fbx" id="3_ck3iv"]

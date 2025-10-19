@@ -1,10 +1,10 @@
 [gd_scene load_steps=17 format=3 uid="uid://brxx7hljhv2yv"]
 
 [ext_resource type="FontFile" uid="uid://bhji2feoaevbb" path="res://Assets/Fonts/Ov3Read Bold.ttf" id="1_06t4h"]
-[ext_resource type="Script" uid="uid://c2hni8w2a7bgs" path="res://main_menu.gd" id="1_7vrkn"]
+[ext_resource type="Script" uid="uid://c2hni8w2a7bgs" path="res://Entities/Entity Components/main_menu.gd" id="1_7vrkn"]
 [ext_resource type="FontFile" uid="uid://blybhqqgw65qr" path="res://Assets/Fonts/VemanemX-Regular.ttf" id="2_fu7sn"]
 [ext_resource type="AudioStream" uid="uid://cyhtq6tg8iruu" path="res://Assets/Sound/MenuMusic1.wav" id="4_jix8l"]
-[ext_resource type="Script" uid="uid://deerhervrb1yd" path="res://option_sliders.gd" id="5_glbon"]
+[ext_resource type="Script" uid="uid://deerhervrb1yd" path="res://Entities/Entity Components/option_sliders.gd" id="5_glbon"]
 
 [sub_resource type="StyleBoxFlat" id="StyleBoxFlat_dy7ct"]
 bg_color = Color(0.30185452, 0.5568091, 0.41172662, 1)

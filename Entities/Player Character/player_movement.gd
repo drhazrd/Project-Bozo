@@ -8,8 +8,10 @@ var isActing = false
 const SPEED = 10.0
 const JUMP_VELOCITY = 4.5
 const TURN_SPEED = 8.0
+@onready var hurtbox_component: Area3D = $HurtBox
 
 func _ready():
+	hurtbox_component.connect("hurt_enemy", _on_hurt_enemy)
 	ap.animation_finished.connect(animationCheck)
 
 func _physics_process(delta: float) -> void:
@@ -43,11 +45,17 @@ func _physics_process(delta: float) -> void:
 		move_and_slide()
 	
 	animation_handler()
+
 func Attack():
 	isActing = true
+	hurtbox_component.monitoring = true
 	ap.play("attack/Root|Attack")
-	$Components/Attacks
-	print("Attack!")
+	await ap.animation_finished
+	hurtbox_component.monitoring = false
+	isActing = false
+func _on_hurt_enemy(enemy: Node):
+	if enemy.has_method("take_damage"):
+		enemy.take_damage()
 
 
 func Act():

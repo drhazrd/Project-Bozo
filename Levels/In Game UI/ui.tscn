@@ -3,8 +3,8 @@
 [ext_resource type="Texture2D" uid="uid://85hlo5p015w7" path="res://Assets/Generic Assets Folder/UI Assets/Textures/HUD/Weapons Frame/HUD_WeaponsFrame_Background.png" id="1_r085e"]
 [ext_resource type="Script" uid="uid://i5q6jl6qwtvs" path="res://Levels/In Game UI/ui.gd" id="1_ss15h"]
 [ext_resource type="Texture2D" uid="uid://vu5a654ppxi7" path="res://Assets/Generic Assets Folder/UI Assets/Textures/HUD/Weapons Frame/HUD_WeaponsFrame_Health_Fill.png" id="3_oefo8"]
-[ext_resource type="PackedScene" uid="uid://dlwbprec67xx8" path="res://mask.tscn" id="4_0bw5l"]
-[ext_resource type="Script" uid="uid://b85uljq6qt2d8" path="res://maskviewport.gd" id="5_8xona"]
+[ext_resource type="PackedScene" uid="uid://dlwbprec67xx8" path="res://Entities/Entity Components/mask.tscn" id="4_0bw5l"]
+[ext_resource type="Script" uid="uid://b85uljq6qt2d8" path="res://Entities/Entity Components/maskviewport.gd" id="5_8xona"]
 
 [sub_resource type="Environment" id="Environment_0bw5l"]
 ambient_light_source = 2

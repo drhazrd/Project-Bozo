@@ -1,0 +1,9 @@
+[gd_scene load_steps=2 format=3 uid="uid://pesjrq38xbtj"]
+
+[ext_resource type="Script" uid="uid://dn6j1bakl81h" path="res://Levels/Test Level/camera_controller.gd" id="1_3aq2b"]
+
+[node name="Camera Controller" type="Node3D"]
+script = ExtResource("1_3aq2b")
+
+[node name="Camera3D" type="Camera3D" parent="."]
+transform = Transform3D(0.7071068, 0.5, -0.5, 0, 0.7071068, 0.7071068, 0.7071068, -0.5, 0.5, -5, 8, 5)

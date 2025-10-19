@@ -11,6 +11,8 @@ var enemy_material: Material
 
 func _ready() -> void:
 	enemy_mesh.set_surface_override_material(0, enemy_material)
+	add_to_group("enemies")
+
 
 func _physics_process(delta: float) -> void:
 	if not is_instance_valid(player_character):
@@ -25,7 +27,10 @@ func _physics_process(delta: float) -> void:
 	velocity = direction * move_speed
 	move_and_slide()
 	animation_handler()
-	
+
+func take_damage(amount: int = 1):
+	print("Enemy hurt!")
+
 func animation_handler():
 	if velocity != Vector3.ZERO:
 		ap.play("run/Root|Run")
