@@ -1,0 +1,19 @@
+[gd_scene load_steps=4 format=3 uid="uid://qnox5dq68eir"]
+
+[sub_resource type="SphereMesh" id="SphereMesh_rhst6"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_k78pu"]
+albedo_color = Color(0.91200656, 0.7152302, 0.35707197, 1)
+emission_enabled = true
+emission = Color(1.0023706, 0.8115788, 1.268598e-06, 1)
+
+[sub_resource type="SphereShape3D" id="SphereShape3D_tdyi7"]
+
+[node name="Projectile" type="MeshInstance3D"]
+mesh = SubResource("SphereMesh_rhst6")
+surface_material_override/0 = SubResource("StandardMaterial3D_k78pu")
+
+[node name="RigidBody3D" type="RigidBody3D" parent="."]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="RigidBody3D"]
+shape = SubResource("SphereShape3D_tdyi7")

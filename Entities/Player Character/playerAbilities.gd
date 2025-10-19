@@ -1,7 +1,6 @@
-# PlayerAttack.gd
 extends Node
 
-@onready var ap: AnimationPlayer = $"../AnimationPlayer" # reference from parent
+@onready var ap: AnimationPlayer = $"../../AnimationPlayer" # reference from parent
 
 var melee_cooldown := 0.5
 var ranged_cooldown := 0.75
@@ -47,12 +46,10 @@ func activate_shield():
 	emit_signal("shield_deactivated")
 
 func _spawn_projectile():
-	# Replace with your projectile scene
-	#var projectile_scene = preload("res://Entities/WeaponsFolder/Projectile.tscn")
-	#var projectile = projectile_scene.instantiate()
+	var projectile_scene = preload("res://Entities/WeaponsFolder/Projectile.tscn")
+	var projectile = projectile_scene.instantiate()
 	print("Fure!")
-	# Position the projectile at the player's location
-	#projectile.global_transform.origin = $"../".global_transform.origin + Vector3(0, 1.5, 0)
-	#projectile.look_at(projectile.global_transform.origin + $"../".global_transform.basis.z)
+	projectile.global_transform.origin = $"../".global_transform.origin + Vector3(0, 1.5, 0)
+	projectile.look_at(projectile.global_transform.origin + $"../".global_transform.basis.z)
 	
-	#get_tree().current_scene.add_child(projectile)
+	get_tree().current_scene.add_child(projectile)

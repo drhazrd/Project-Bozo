@@ -2,12 +2,15 @@ extends CharacterBody3D
 
 @onready var ap: AnimationPlayer = $AnimationPlayer
 @onready var camera_3d: Camera3D = $"../Camera Controller/Camera3D"
-var isAttacking = false
+var isActing = false
 @onready var attackCooldown = 0.25
 
 const SPEED = 10.0
 const JUMP_VELOCITY = 4.5
 const TURN_SPEED = 8.0
+
+func _ready():
+	ap.animation_finished.connect(animationCheck)
 
 func _physics_process(delta: float) -> void:
 	if not is_on_floor():
@@ -31,23 +34,39 @@ func _physics_process(delta: float) -> void:
 		velocity.x = move_toward(velocity.x, 0, SPEED)
 		velocity.z = move_toward(velocity.z, 0, SPEED)
 
-	move_and_slide()
+	if isActing:
+		velocity.x = 0
+		velocity.z = 0
+		move_and_slide()
+		return
+	else:
+		move_and_slide()
+	
 	animation_handler()
 func Attack():
-	isAttacking = true
+	isActing = true
 	ap.play("attack/Root|Attack")
+	$Components/Attacks
 	print("Attack!")
-	await ap.animation_finished
-	await get_tree().create_timer(attackCooldown).timeout
-	isAttacking = false
-	
+
+
+func Act():
+	if canAttack():
+		isActing = true
+		ap.play("interactGround/Root|Interact_ground")
 func canAttack():
-	var attackStatus:bool = !isAttacking
+	var attackStatus:bool = !isActing
 	
 	return attackStatus
+
+func animationCheck(anim_name):
+	if anim_name == "attack/Root|Attack":
+		isActing = false
 	
 func animation_handler():
-	if is_on_floor() and velocity == Vector3.ZERO and isAttacking == false:
+	if isActing:
+		return
+	if is_on_floor() and velocity == Vector3.ZERO:
 		ap.play("idle/Root|Idle")
 	elif not is_on_floor():
 		ap.play("jump/Root|Jump")
